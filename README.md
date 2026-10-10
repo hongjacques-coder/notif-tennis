@@ -1,7 +1,11 @@
 # notif-tennis
 
-Notification Discord à chaque nouvelle partie publiée sur
-<https://www.partennis.com/proposition-de-partie>. Tourne gratuitement sur GitHub Actions.
+Notification Discord à chaque nouvelle partie publiée sur :
+
+- <https://www.partennis.com/proposition-de-partie>
+- <https://www.tennis-contact.com/parties.php>
+
+Tourne gratuitement sur GitHub Actions.
 
 ## Installation (une seule fois)
 
@@ -44,19 +48,31 @@ En haut de `notif_tennis.py` :
 
 ```python
 DEPARTEMENTS = ["75", "77", "78", "91", "92", "93", "94", "95"]  # Île-de-France ([] = tous)
-NIVEAU_MAX = "30/2"  # vérifié sur le niveau min demandé ET le niveau du joueur ("" = tous)
-# - les 2 OK          -> notif 🎾 (verte)
-# - un seul OK        -> notif ⚠️ (orange), à toi de trancher
-# - les 2 dépassent   -> pas de notif
+NIVEAU_MAX = "30/2"  # "" = pas de filtre
 ```
+
+| Site | Comment le niveau est lu | 🎾 verte | ⚠️ orange (à toi de trancher) | Pas de notif |
+|---|---|---|---|---|
+| Partennis | Niveau min demandé + niveau du joueur | les 2 ≤ 30/2 | un seul ≤ 30/2 | les 2 > 30/2 |
+| Tennis-Contact | Classements cités dans le texte libre (ex. « 30/3 mini à 30/2 ») | tous ≤ 30/2 | mélange, ou aucun niveau cité | tous > 30/2 |
+
+Une annonce Tennis-Contact marquée « Partie réservée » est signalée par 🔒 dans la notif.
 
 ## Fonctionnement
 
-1. Le script lit **toutes** les pages (il suit le lien « Suivant » jusqu'à la dernière, quel que soit le nombre de pages).
-2. Chaque partie reçoit une empreinte : `pseudo + date + lieu + description`.
-3. Une empreinte absente de `seen.json` déclenche une notif Discord, puis elle est ajoutée au fichier.
-4. `seen.json` est recommité dans le repo après chaque run. Les parties passées depuis plus de 7 jours sont oubliées.
-5. Si 0 partie est lue alors que le site en annonce, tu reçois une alerte « structure changée ».
+1. Pour chaque site, le script lit **toutes** les pages (il suit la pagination jusqu'au bout).
+2. Chaque partie a un identifiant :
+   - Partennis : empreinte `pseudo + date + lieu + description` (le site n'a pas d'ID).
+   - Tennis-Contact : l'ID de la partie donné par le site.
+3. Un identifiant absent de `seen.json` déclenche une notif Discord, puis il est ajouté au fichier.
+4. Premier passage sur un nouveau site : les parties existantes sont enregistrées **sans notifier**.
+5. `seen.json` est recommité dans le repo après chaque run. Les parties passées depuis plus de 7 jours sont oubliées.
+6. Un site en panne ne bloque pas l'autre.
+7. Si un site renvoie 0 partie (ou moins que son compteur), tu reçois une alerte « structure changée », au maximum une fois par jour.
+
+## Ajouter un site
+
+Créer une classe sur le modèle de `TennisContact` dans `notif_tennis.py` (méthodes `scraper`, `parse`, `filtrer`) et l'ajouter à la liste `SOURCES`.
 
 ## Tester le webhook
 
