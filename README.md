@@ -11,11 +11,12 @@ Notification Discord à chaque nouvelle partie publiée sur
 2. **Ajouter l'URL dans GitHub**
    - Repo → *Settings* → *Secrets and variables* → *Actions* → *New repository secret*.
    - Name : `DISCORD_WEBHOOK_URL` / Secret : l'URL copiée.
-3. **Mettre le code sur la branche par défaut** (`main`)
-   - GitHub ne lance les tâches planifiées que sur la branche par défaut.
+3. **Vérifier la branche par défaut**
+   - GitHub ne lance les tâches planifiées que sur la branche par défaut (*Settings* → *General* → *Default branch*).
+   - Elle doit contenir ce code.
 4. **Premier lancement**
    - Onglet *Actions* → *notif-tennis* → *Run workflow*.
-   - Ce premier run enregistre les parties existantes dans `seen.json` **sans notifier**.
+   - Si `seen.json` n'existe pas, ce premier run enregistre les parties existantes **sans notifier**.
    - Ensuite, seules les nouvelles parties déclenchent une notif.
 
 ## ON / OFF
