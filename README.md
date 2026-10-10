@@ -60,7 +60,9 @@ NIVEAU_MAX = "30/2"  # vérifié sur le niveau min demandé ET le niveau du joue
 
 ## Tester le webhook
 
-*Actions* → *Run workflow* fonctionne, ou en local :
+*Actions* → *notif-tennis* → *Run workflow* → coche **Envoyer un message de test sur Discord** → *Run workflow*.
+
+Ou en local :
 
 ```bash
 pip install -r requirements.txt

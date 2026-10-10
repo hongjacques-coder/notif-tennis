@@ -5,6 +5,11 @@ on:
     # Fréquence de vérification. "*/15" = toutes les 15 minutes (minimum GitHub : 5).
     - cron: "*/15 * * * *"
   workflow_dispatch: # bouton "Run workflow" pour lancer à la main
+    inputs:
+      test_discord:
+        description: "Envoyer un message de test sur Discord"
+        type: boolean
+        default: false
 
 concurrency:
   group: notif-tennis
@@ -26,6 +31,12 @@ jobs:
           cache: pip
 
       - run: pip install -r requirements.txt
+
+      - name: Tester le webhook Discord
+        if: inputs.test_discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python notif_tennis.py --test
 
       - name: Vérifier les nouvelles parties
         env:
