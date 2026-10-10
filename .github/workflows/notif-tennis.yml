@@ -1,0 +1,44 @@
+name: notif-tennis
+
+on:
+  schedule:
+    # Fréquence de vérification. "*/10" = toutes les 10 minutes (minimum GitHub : 5).
+    - cron: "*/10 * * * *"
+  workflow_dispatch: # bouton "Run workflow" pour lancer à la main
+
+concurrency:
+  group: notif-tennis
+  cancel-in-progress: false
+
+permissions:
+  contents: write # pour recommiter seen.json
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Vérifier les nouvelles parties
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python notif_tennis.py
+
+      - name: Sauvegarder seen.json
+        if: always()
+        run: |
+          git add seen.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git config user.name "notif-tennis-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "MAJ seen.json"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
