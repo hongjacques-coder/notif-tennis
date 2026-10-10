@@ -22,7 +22,11 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 # Filtres optionnels (laisser vide = toutes les parties).
 # Départements acceptés (ici : Île-de-France)
 DEPARTEMENTS: list[str] = ["75", "77", "78", "91", "92", "93", "94", "95"]
-# Niveau max : ignore les parties dont le niveau minimum demandé est plus fort que celui-ci
+# Niveau max, vérifié sur 2 critères :
+#   1) le niveau minimum demandé par l'annonce
+#   2) le niveau du joueur qui publie
+# Notif si les 2 sont OK. Si un seul est OK (incohérence) : notif quand même, avec un ⚠️.
+# Ignorée seulement si les 2 dépassent.
 NIVEAU_MAX = "30/2"
 
 MAX_PAGES = 200          # garde-fou contre une boucle infinie
@@ -147,12 +151,28 @@ def scrape_toutes_les_pages() -> tuple[list[dict], int | None]:
     return parties, attendu
 
 
+def niveau_ok(niveau: str) -> bool | None:
+    """True si niveau <= NIVEAU_MAX, None si niveau inconnu."""
+    niveau = niveau.split(" - ")[0].strip()
+    if niveau not in NIVEAUX:
+        return None
+    return NIVEAUX.index(niveau) <= NIVEAUX.index(NIVEAU_MAX)
+
+
 def passe_filtres(p: dict) -> bool:
+    """Remplit p["alerte"] en cas d'incohérence entre les 2 critères de niveau."""
+    p["alerte"] = ""
     if DEPARTEMENTS and p["dept"].split(" ")[0] not in DEPARTEMENTS:
         return False
-    if NIVEAU_MAX and p["niv_min"] in NIVEAUX:
-        if NIVEAUX.index(p["niv_min"]) > NIVEAUX.index(NIVEAU_MAX):
-            return False
+    if not NIVEAU_MAX:
+        return True
+    annonce, joueur = niveau_ok(p["niv_min"]), niveau_ok(p["niveau_joueur"])
+    if annonce is False and joueur is False:
+        return False
+    if annonce is False:
+        p["alerte"] = f"Niveau min demandé ({p['niv_min']}) > {NIVEAU_MAX}, mais le joueur est OK"
+    elif joueur is False:
+        p["alerte"] = f"Joueur ({p['niveau_joueur'].split(' - ')[0]}) > {NIVEAU_MAX}, mais l'annonce est OK"
     return True
 
 
@@ -183,9 +203,10 @@ def notifier(p: dict) -> None:
     discord({
         "username": "Partennis",
         "embeds": [{
-            "title": f"🎾 Nouvelle partie : {p['pseudo']} – {p['date_jeu']}",
+            "title": f"{'⚠️' if p.get('alerte') else '🎾'} Nouvelle partie : {p['pseudo']} – {p['date_jeu']}",
+            **({"description": f"⚠️ {p['alerte']}"} if p.get("alerte") else {}),
             "url": p["profil_url"],
-            "color": 0x2ECC71,
+            "color": 0xF39C12 if p.get("alerte") else 0x2ECC71,
             "fields": champs,
             "footer": {"text": "partennis.com/proposition-de-partie"},
         }],

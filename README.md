@@ -44,7 +44,10 @@ En haut de `notif_tennis.py` :
 
 ```python
 DEPARTEMENTS = ["75", "77", "78", "91", "92", "93", "94", "95"]  # Île-de-France ([] = tous)
-NIVEAU_MAX = "30/2"  # ignore les parties dont le niveau min demandé est > 30/2 ("" = tous)
+NIVEAU_MAX = "30/2"  # vérifié sur le niveau min demandé ET le niveau du joueur ("" = tous)
+# - les 2 OK          -> notif 🎾 (verte)
+# - un seul OK        -> notif ⚠️ (orange), à toi de trancher
+# - les 2 dépassent   -> pas de notif
 ```
 
 ## Fonctionnement
