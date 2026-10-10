@@ -2,8 +2,8 @@ name: notif-tennis
 
 on:
   schedule:
-    # Fréquence de vérification. "*/10" = toutes les 10 minutes (minimum GitHub : 5).
-    - cron: "*/10 * * * *"
+    # Fréquence de vérification. "*/15" = toutes les 15 minutes (minimum GitHub : 5).
+    - cron: "*/15 * * * *"
   workflow_dispatch: # bouton "Run workflow" pour lancer à la main
 
 concurrency:

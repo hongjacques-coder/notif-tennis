@@ -43,8 +43,8 @@ Dans `.github/workflows/notif-tennis.yml`, ligne `cron` :
 En haut de `notif_tennis.py` :
 
 ```python
-DEPARTEMENTS = ["75", "92"]   # seulement ces départements ([] = tous)
-MON_NIVEAU = "30/2"           # seulement si ton niveau est dans la fourchette demandée ("" = tous)
+DEPARTEMENTS = ["75", "77", "78", "91", "92", "93", "94", "95"]  # Île-de-France ([] = tous)
+NIVEAU_MAX = "30/2"  # ignore les parties dont le niveau min demandé est > 30/2 ("" = tous)
 ```
 
 ## Fonctionnement
