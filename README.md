@@ -16,8 +16,7 @@ Tourne gratuitement sur GitHub Actions.
    - Repo → *Settings* → *Secrets and variables* → *Actions* → *New repository secret*.
    - Name : `DISCORD_WEBHOOK_URL` / Secret : l'URL copiée.
 3. **Vérifier la branche par défaut**
-   - GitHub ne lance les tâches planifiées que sur la branche par défaut (*Settings* → *General* → *Default branch*).
-   - Elle doit contenir ce code.
+   - GitHub ne lance les tâches planifiées que sur la branche par défaut : `main` (*Settings* → *General* → *Default branch*).
 4. **Premier lancement**
    - Onglet *Actions* → *notif-tennis* → *Run workflow*.
    - Si `seen.json` n'existe pas, ce premier run enregistre les parties existantes **sans notifier**.
