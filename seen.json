@@ -92,6 +92,13 @@
    "pseudo": "capucinedsl",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:8b30124be40c192e": {
+   "date_jeu": "12 Octobre 2026",
+   "date_jeu_iso": "2026-10-12",
+   "lieu": "Alain Mimoun",
+   "pseudo": "johnlamarck",
+   "vu_le": "2026-10-11T06:31:11"
+  },
   "partennis:92bd42a88ec2dc7f": {
    "date_jeu": "11 Octobre 2026",
    "date_jeu_iso": "2026-10-11",
@@ -273,6 +280,13 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Tennisman 2000",
    "vu_le": "2026-10-11T00:43:30"
+  },
+  "tennis-contact:37014": {
+   "date_jeu": "12/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-12",
+   "lieu": "Paris 20eme arrondissement (paris)",
+   "pseudo": "John-vincent Lamarck",
+   "vu_le": "2026-10-11T06:31:12"
   }
  },
  "sources": [
