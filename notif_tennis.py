@@ -16,11 +16,16 @@ import unicodedata
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
 
 # --- Réglages -----------------------------------------------------------------
+
+# Pause : aucune vérification ni notification avant cette date (heure de Paris).
+# Format "AAAA-MM-JJ". "" = pas de pause.
+REPRISE_LE = "2026-10-16"
 
 SEEN_FILE = Path(__file__).with_name("seen.json")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
@@ -419,6 +424,11 @@ def main() -> int:
     if "--test" in sys.argv:
         discord({"content": "✅ notif-tennis : le webhook Discord fonctionne !"})
         log("Notification de test envoyée.")
+        return 0
+
+    aujourdhui = datetime.now(ZoneInfo("Europe/Paris")).date()
+    if REPRISE_LE and aujourdhui < date.fromisoformat(REPRISE_LE):
+        log(f"En pause jusqu'au {REPRISE_LE} : aucune vérification.")
         return 0
 
     seen = charger_seen()

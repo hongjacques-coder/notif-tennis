@@ -29,6 +29,11 @@ Tourne gratuitement sur GitHub Actions.
 
 Ça marche aussi depuis l'app mobile GitHub ou le navigateur du téléphone.
 
+**Pause jusqu'à une date** : en haut de `notif_tennis.py`, `REPRISE_LE = "2026-10-16"`.
+Avant cette date (heure de Paris), le script ne vérifie rien. Il reprend tout seul ce jour-là.
+À la reprise, les parties publiées pendant la pause et encore en ligne sont notifiées.
+`REPRISE_LE = ""` = pas de pause.
+
 ## Changer la fréquence (X minutes)
 
 Dans `.github/workflows/notif-tennis.yml`, ligne `cron` :
