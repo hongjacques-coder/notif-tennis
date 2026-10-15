@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup
 
 # Pause : aucune vérification ni notification avant cette date (heure de Paris).
 # Format "AAAA-MM-JJ". "" = pas de pause.
-REPRISE_LE = "2026-10-16"
+REPRISE_LE = ""
 
 SEEN_FILE = Path(__file__).with_name("seen.json")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
