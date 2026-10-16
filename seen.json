@@ -190,6 +190,13 @@
    "pseudo": "shaden",
    "vu_le": "2026-10-15T21:48:39"
   },
+  "partennis:9e5ecd34f9db0bf0": {
+   "date_jeu": "18 Octobre 2026",
+   "date_jeu_iso": "2026-10-18",
+   "lieu": "15h Georges Carpentier.",
+   "pseudo": "davidr",
+   "vu_le": "2026-10-16T00:36:29"
+  },
   "partennis:a3b1f42edc718394": {
    "date_jeu": "13 Octobre 2026",
    "date_jeu_iso": "2026-10-13",
@@ -455,6 +462,13 @@
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "Player75 Tennis",
    "vu_le": "2026-10-15T21:48:54"
+  },
+  "tennis-contact:37026": {
+   "date_jeu": "18/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-18",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "David R",
+   "vu_le": "2026-10-16T00:36:30"
   }
  },
  "sources": [
