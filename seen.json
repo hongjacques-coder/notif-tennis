@@ -15,6 +15,13 @@
    "pseudo": "abelo",
    "vu_le": "2026-10-11T13:33:35"
   },
+  "partennis:12c10ba3ccf1e7d5": {
+   "date_jeu": "17 Octobre 2026",
+   "date_jeu_iso": "2026-10-17",
+   "lieu": "PARIS 16E OU 18EME",
+   "pseudo": "enjoytennis",
+   "vu_le": "2026-10-16T21:33:53"
+  },
   "partennis:151cc07f1c7a24d0": {
    "date_jeu": "16 Octobre 2026",
    "date_jeu_iso": "2026-10-16",
@@ -175,6 +182,13 @@
    "lieu": "Alain Mimoun",
    "pseudo": "johnlamarck",
    "vu_le": "2026-10-11T06:31:11"
+  },
+  "partennis:8d6a96fc4a0aaffe": {
+   "date_jeu": "16 Octobre 2026",
+   "date_jeu_iso": "2026-10-16",
+   "lieu": "Ile de Puteaux (Urban)",
+   "pseudo": "gabby",
+   "vu_le": "2026-10-16T21:33:53"
   },
   "partennis:8eaa3b28754acdf8": {
    "date_jeu": "18 Octobre 2026",
