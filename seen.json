@@ -64,6 +64,13 @@
    "pseudo": "seon",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:3a79b51b61dc3cff": {
+   "date_jeu": "17 Octobre 2026",
+   "date_jeu_iso": "2026-10-17",
+   "lieu": "Rigoulot la Plaine",
+   "pseudo": "tartineto29",
+   "vu_le": "2026-10-17T15:39:38"
+  },
   "partennis:3c27632b9374f7d5": {
    "date_jeu": "14 Octobre 2026",
    "date_jeu_iso": "2026-10-14",
@@ -330,6 +337,20 @@
    "pseudo": "totopsg",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:e0e94acf4b54b168": {
+   "date_jeu": "18 Octobre 2026",
+   "date_jeu_iso": "2026-10-18",
+   "lieu": "Treffiagat",
+   "pseudo": "totopsg",
+   "vu_le": "2026-10-17T15:39:36"
+  },
+  "partennis:e2cf9732ee99e411": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Suzanne Lenglen Paris 75015",
+   "pseudo": "isdeb",
+   "vu_le": "2026-10-17T15:39:36"
+  },
   "partennis:e5a7aa78248d1992": {
    "date_jeu": "11 Octobre 2026",
    "date_jeu_iso": "2026-10-11",
@@ -525,6 +546,13 @@
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "David R",
    "vu_le": "2026-10-16T00:36:30"
+  },
+  "tennis-contact:37028": {
+   "date_jeu": "20/10/2026 (Heure du déjeuner)",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Player75 Tennis",
+   "vu_le": "2026-10-17T15:39:38"
   }
  },
  "sources": [
