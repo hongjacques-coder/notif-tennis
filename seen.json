@@ -50,20 +50,6 @@
    "pseudo": "psb75",
    "vu_le": "2026-10-15T21:48:41"
   },
-  "partennis:33282376f90ec577": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Toulouse",
-   "pseudo": "nans64",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:3415a20e9973eb57": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "IVRY SUR SEINE",
-   "pseudo": "seon",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:3880bc9ae0507065": {
    "date_jeu": "19 Octobre 2026",
    "date_jeu_iso": "2026-10-19",
@@ -99,26 +85,12 @@
    "pseudo": "rachos78",
    "vu_le": "2026-10-15T21:48:45"
   },
-  "partennis:4f0ac5d1bcbb5740": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Club FOREST-HILL LA MARCHE à Marnes la Coquette",
-   "pseudo": "patrickh",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:52403ada0ee43a77": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
    "lieu": "Bobigny - 40 Avenue de la Division Leclerc",
    "pseudo": "jeep02",
    "vu_le": "2026-10-16T09:51:29"
-  },
-  "partennis:550b7f5fdc5c16ad": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Parc du Tremblay",
-   "pseudo": "bertrand94",
-   "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:551f3e1af58a0061": {
    "date_jeu": "17 Octobre 2026",
@@ -134,25 +106,11 @@
    "pseudo": "alexxx",
    "vu_le": "2026-10-17T20:23:27"
   },
-  "partennis:59d88fc6b547154f": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Sablonnière (rue cambronne)",
-   "pseudo": "floridaman",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:5f6b9e4989ab82c7": {
    "date_jeu": "16 Décembre 2026",
    "date_jeu_iso": "2026-12-16",
    "lieu": "Paris",
    "pseudo": "ol75",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:60b6da2fa18105da": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Parc des Glacières (Boulogne)",
-   "pseudo": "totopsg",
    "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:65829ea4df475d3b": {
@@ -274,13 +232,6 @@
    "pseudo": "tennisman2000",
    "vu_le": "2026-10-11T00:43:26"
   },
-  "partennis:ab9cec7a5b497744": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "parc suzanne lenglen",
-   "pseudo": "maximilien456",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:bab3eada8395e8be": {
    "date_jeu": "11 Octobre 2026",
    "date_jeu_iso": "2026-10-11",
@@ -300,13 +251,6 @@
    "date_jeu_iso": "2026-12-31",
    "lieu": "Dordives",
    "pseudo": "sly20",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:cce90bc4e925355a": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "FOREST-HILL LA MARCHE à Marnes la Coquette",
-   "pseudo": "patrickh",
    "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:d0841bce724814a3": {
@@ -379,25 +323,11 @@
    "pseudo": "tennisfun77",
    "vu_le": "2026-10-10T17:56:29"
   },
-  "partennis:eb040a2d7e42f69c": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Bertrand Dauvin",
-   "pseudo": "platoche75",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:ebc8234402681f8c": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
    "lieu": "Clubs Forest-Hill : LA DEFENSE à Nanterre - LA MARCHE à Marnes la Coquette - Aquaboulevard à Paris 15",
    "pseudo": "patrickh",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:edd21fbffc128075": {
-   "date_jeu": "10 Octobre 2026",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "parc du tremblay",
-   "pseudo": "eric77",
    "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:f03eb0c47dfcc8b1": {
@@ -454,13 +384,6 @@
    "date_jeu_iso": "2026-12-01",
    "lieu": "Paris 12eme arrondissement (val de marne)",
    "pseudo": "Mehmet D",
-   "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37001": {
-   "date_jeu": "10/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-10",
-   "lieu": "Marnes la coquette (hauts de seine)",
-   "pseudo": "Patrick H",
    "vu_le": "2026-10-10T18:28:20"
   },
   "tennis-contact:37003": {
