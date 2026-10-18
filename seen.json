@@ -113,6 +113,13 @@
    "pseudo": "thomas92",
    "vu_le": "2026-10-15T21:48:42"
   },
+  "partennis:5623031a31791893": {
+   "date_jeu": "19 Octobre 2026",
+   "date_jeu_iso": "2026-10-19",
+   "lieu": "Paris 15 - Suzanne lenglen",
+   "pseudo": "dacie",
+   "vu_le": "2026-10-18T19:17:02"
+  },
   "partennis:57a6dc51ff7c2b8f": {
    "date_jeu": "19 Octobre 2026",
    "date_jeu_iso": "2026-10-19",
@@ -147,6 +154,13 @@
    "lieu": "Parc du Tremblay",
    "pseudo": "bertrand94",
    "vu_le": "2026-10-11T13:33:35"
+  },
+  "partennis:72f5aa05ce6c845a": {
+   "date_jeu": "18 Octobre 2026",
+   "date_jeu_iso": "2026-10-18",
+   "lieu": "Neuilly-sur-Seine",
+   "pseudo": "jona",
+   "vu_le": "2026-10-18T19:17:05"
   },
   "partennis:733e1ba0c1227f34": {
    "date_jeu": "13 Octobre 2026",
@@ -259,6 +273,20 @@
    "lieu": "75012",
    "pseudo": "tennisman2000",
    "vu_le": "2026-10-11T00:43:26"
+  },
+  "partennis:a4b1ed2f426f8488": {
+   "date_jeu": "22 Octobre 2026",
+   "date_jeu_iso": "2026-10-22",
+   "lieu": "14e",
+   "pseudo": "gaspachooo",
+   "vu_le": "2026-10-18T19:17:05"
+  },
+  "partennis:b73be2512e403af3": {
+   "date_jeu": "19 Octobre 2026",
+   "date_jeu_iso": "2026-10-19",
+   "lieu": "La faluere",
+   "pseudo": "did75",
+   "vu_le": "2026-10-18T19:17:04"
   },
   "partennis:bab3eada8395e8be": {
    "date_jeu": "11 Octobre 2026",
@@ -546,6 +574,13 @@
    "lieu": "Paris 20eme arrondissement (paris)",
    "pseudo": "John-vincent Lamarck",
    "vu_le": "2026-10-18T13:29:06"
+  },
+  "tennis-contact:37031": {
+   "date_jeu": "19/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-19",
+   "lieu": "Paris 12eme arrondissement (paris)",
+   "pseudo": "Didier G",
+   "vu_le": "2026-10-18T19:17:06"
   }
  },
  "sources": [
