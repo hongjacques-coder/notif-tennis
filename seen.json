@@ -50,6 +50,13 @@
    "pseudo": "psb75",
    "vu_le": "2026-10-15T21:48:41"
   },
+  "partennis:307e19142e2c39c7": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Carpentier (75013)",
+   "pseudo": "tennisplayer",
+   "vu_le": "2026-10-18T13:29:04"
+  },
   "partennis:3880bc9ae0507065": {
    "date_jeu": "19 Octobre 2026",
    "date_jeu_iso": "2026-10-19",
@@ -183,6 +190,13 @@
    "pseudo": "gero",
    "vu_le": "2026-10-15T21:48:39"
   },
+  "partennis:90a3c63fe4dee3aa": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Parc du Tremblay",
+   "pseudo": "bertrand94",
+   "vu_le": "2026-10-18T13:29:05"
+  },
   "partennis:90f4e75243c9e8cd": {
    "date_jeu": "16 Octobre 2026",
    "date_jeu_iso": "2026-10-16",
@@ -294,6 +308,13 @@
    "lieu": "Suzanne Lenglen Paris 15",
    "pseudo": "alexxx",
    "vu_le": "2026-10-10T17:56:29"
+  },
+  "partennis:dfc03207a123dede": {
+   "date_jeu": "23 Octobre 2026",
+   "date_jeu_iso": "2026-10-23",
+   "lieu": "alain Mimoun",
+   "pseudo": "johnlamarck",
+   "vu_le": "2026-10-18T13:29:04"
   },
   "partennis:e06754eb9e23476f": {
    "date_jeu": "19 Octobre 2026",
@@ -504,6 +525,20 @@
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "Player75 Tennis",
    "vu_le": "2026-10-17T15:39:38"
+  },
+  "tennis-contact:37029": {
+   "date_jeu": "20/10/2026 (Début de Soirée)",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Player75 Tennis",
+   "vu_le": "2026-10-18T13:29:06"
+  },
+  "tennis-contact:37030": {
+   "date_jeu": "23/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-23",
+   "lieu": "Paris 20eme arrondissement (paris)",
+   "pseudo": "John-vincent Lamarck",
+   "vu_le": "2026-10-18T13:29:06"
   }
  },
  "sources": [
