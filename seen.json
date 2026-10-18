@@ -1,5 +1,7 @@
 {
- "alertes": {},
+ "alertes": {
+  "partennis:incomplet": "2026-10-18"
+ },
  "parties": {
   "partennis:08bb669b16db4b84": {
    "date_jeu": "15 Octobre 2026",
