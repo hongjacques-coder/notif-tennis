@@ -136,13 +136,6 @@
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
   },
-  "partennis:65829ea4df475d3b": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "Parc des Glacières (Boulogne)",
-   "pseudo": "totopsg",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:6b4c5b021ae10aab": {
    "date_jeu": "16 Octobre 2026",
    "date_jeu_iso": "2026-10-16",
@@ -241,13 +234,6 @@
    "pseudo": "tennispro",
    "vu_le": "2026-10-16T14:38:35"
   },
-  "partennis:92bd42a88ec2dc7f": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "Pessac (33600)",
-   "pseudo": "sebastian",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:9874907d1166d7c9": {
    "date_jeu": "16 Octobre 2026",
    "date_jeu_iso": "2026-10-16",
@@ -296,13 +282,6 @@
    "lieu": "La faluere",
    "pseudo": "did75",
    "vu_le": "2026-10-18T19:17:04"
-  },
-  "partennis:bab3eada8395e8be": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "Stade francais",
-   "pseudo": "idemooo",
-   "vu_le": "2026-10-11T13:33:30"
   },
   "partennis:bb0f417c83abdb45": {
    "date_jeu": "13 Octobre 2026",
@@ -381,20 +360,6 @@
    "pseudo": "isdeb",
    "vu_le": "2026-10-17T15:39:36"
   },
-  "partennis:e5a7aa78248d1992": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "Neuilly sur Seine, Pont de Neuilly",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:e7c398e7301386ff": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "75016",
-   "pseudo": "tennisfun77",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:ebc8234402681f8c": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -414,13 +379,6 @@
    "date_jeu_iso": "2026-10-12",
    "lieu": "Lille",
    "pseudo": "removof",
-   "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:f5739760839c0407": {
-   "date_jeu": "11 Octobre 2026",
-   "date_jeu_iso": "2026-10-11",
-   "lieu": "Paris et environs",
-   "pseudo": "tennispro",
    "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:f88b0cabaeeb2b16": {
