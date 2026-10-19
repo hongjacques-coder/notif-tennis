@@ -38,6 +38,13 @@
    "pseudo": "inoha",
    "vu_le": "2026-10-16T09:51:31"
   },
+  "partennis:1fabfc1964bc7cd5": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Neuilly-sur-Seine",
+   "pseudo": "jona",
+   "vu_le": "2026-10-19T07:26:31"
+  },
   "partennis:2a4ad9e055a7b400": {
    "date_jeu": "31 Décembre 3000",
    "date_jeu_iso": "3000-12-31",
@@ -548,6 +555,13 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Didier G",
    "vu_le": "2026-10-18T19:17:06"
+  },
+  "tennis-contact:37032": {
+   "date_jeu": "25/10/2026 (Matinée)",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Paris 16eme arrondissement (paris)",
+   "pseudo": "Vera C",
+   "vu_le": "2026-10-19T07:26:33"
   }
  },
  "sources": [
