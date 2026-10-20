@@ -94,12 +94,26 @@
    "pseudo": "gaona2025",
    "vu_le": "2026-10-17T22:32:49"
   },
+  "partennis:3913b59af85b9389": {
+   "date_jeu": "22 Octobre 2026",
+   "date_jeu_iso": "2026-10-22",
+   "lieu": "Poterne des Peupliers",
+   "pseudo": "tennisplayer",
+   "vu_le": "2026-10-20T18:38:26"
+  },
   "partennis:3a79b51b61dc3cff": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
    "lieu": "Rigoulot la Plaine",
    "pseudo": "tartineto29",
    "vu_le": "2026-10-17T15:39:38"
+  },
+  "partennis:3b4f15cdfa74750e": {
+   "date_jeu": "21 Octobre 2026",
+   "date_jeu_iso": "2026-10-21",
+   "lieu": "Tennis Elisabeth (14e)",
+   "pseudo": "bsuire",
+   "vu_le": "2026-10-20T18:38:24"
   },
   "partennis:3c27632b9374f7d5": {
    "date_jeu": "14 Octobre 2026",
@@ -409,6 +423,13 @@
    "pseudo": "isdeb",
    "vu_le": "2026-10-17T15:39:36"
   },
+  "partennis:eae4251912f14201": {
+   "date_jeu": "21 Octobre 2026",
+   "date_jeu_iso": "2026-10-21",
+   "lieu": "Poliveau",
+   "pseudo": "aleformi",
+   "vu_le": "2026-10-20T18:38:26"
+  },
   "partennis:ebc8234402681f8c": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -597,6 +618,13 @@
    "lieu": "Paris 16eme arrondissement (paris)",
    "pseudo": "Vera C",
    "vu_le": "2026-10-19T07:26:33"
+  },
+  "tennis-contact:37033": {
+   "date_jeu": "22/10/2026 (Heure du déjeuner)",
+   "date_jeu_iso": "2026-10-22",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Player75 Tennis",
+   "vu_le": "2026-10-20T18:38:28"
   }
  },
  "sources": [
