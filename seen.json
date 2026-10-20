@@ -164,12 +164,26 @@
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:6a902a5acc22cdbc": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Ozoir la ferriere",
+   "pseudo": "fafadjokovic",
+   "vu_le": "2026-10-20T14:26:13"
+  },
   "partennis:6b4c5b021ae10aab": {
    "date_jeu": "16 Octobre 2026",
    "date_jeu_iso": "2026-10-16",
    "lieu": "92",
    "pseudo": "karim92",
    "vu_le": "2026-10-15T21:48:46"
+  },
+  "partennis:725c397bb5c9dd63": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "Tennis Elisabeth - court couvert",
+   "pseudo": "bsuire",
+   "vu_le": "2026-10-20T14:26:13"
   },
   "partennis:72f5aa05ce6c845a": {
    "date_jeu": "18 Octobre 2026",
@@ -324,6 +338,13 @@
    "lieu": "La faluère",
    "pseudo": "quentinp",
    "vu_le": "2026-10-11T00:43:28"
+  },
+  "partennis:bff119c8df768612": {
+   "date_jeu": "20 Octobre 2026",
+   "date_jeu_iso": "2026-10-20",
+   "lieu": "ACS cormeillais",
+   "pseudo": "teddy92",
+   "vu_le": "2026-10-20T14:26:14"
   },
   "partennis:cb161443fd7c8396": {
    "date_jeu": "31 Décembre 2026",
