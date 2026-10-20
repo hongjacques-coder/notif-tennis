@@ -17,13 +17,6 @@
    "pseudo": "gabby",
    "vu_le": "2026-10-19T14:54:36"
   },
-  "partennis:1116a014d4ebe167": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "17 rue max Jacob 75013",
-   "pseudo": "abelo",
-   "vu_le": "2026-10-11T13:33:35"
-  },
   "partennis:12c10ba3ccf1e7d5": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -178,13 +171,6 @@
    "pseudo": "karim92",
    "vu_le": "2026-10-15T21:48:46"
   },
-  "partennis:6f6fef24e6e39af9": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Parc du Tremblay",
-   "pseudo": "bertrand94",
-   "vu_le": "2026-10-11T13:33:35"
-  },
   "partennis:72f5aa05ce6c845a": {
    "date_jeu": "18 Octobre 2026",
    "date_jeu_iso": "2026-10-18",
@@ -233,13 +219,6 @@
    "lieu": "Plaisir (78) et alentours",
    "pseudo": "sebten",
    "vu_le": "2026-10-18T09:27:04"
-  },
-  "partennis:8b30124be40c192e": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Alain Mimoun",
-   "pseudo": "johnlamarck",
-   "vu_le": "2026-10-11T06:31:11"
   },
   "partennis:8d6a96fc4a0aaffe": {
    "date_jeu": "16 Octobre 2026",
@@ -381,20 +360,6 @@
    "pseudo": "save1985",
    "vu_le": "2026-10-11T13:33:36"
   },
-  "partennis:d745f9db027bef0c": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "75015 Montparnasse",
-   "pseudo": "rhumain",
-   "vu_le": "2026-10-11T13:33:35"
-  },
-  "partennis:d967e414cf8ce1cf": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Suzanne Lenglen Paris 15",
-   "pseudo": "alexxx",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:dfc03207a123dede": {
    "date_jeu": "23 Octobre 2026",
    "date_jeu_iso": "2026-10-23",
@@ -444,13 +409,6 @@
    "pseudo": "jona",
    "vu_le": "2026-10-15T21:48:39"
   },
-  "partennis:f3eb46cbc6130498": {
-   "date_jeu": "12 Octobre 2026",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Lille",
-   "pseudo": "removof",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:f88b0cabaeeb2b16": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -493,20 +451,6 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37003": {
-   "date_jeu": "12/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "David 75015",
-   "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37006": {
-   "date_jeu": "12/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "Gilles D.",
-   "vu_le": "2026-10-10T18:28:20"
-  },
   "tennis-contact:37011": {
    "date_jeu": "16/10/2026 (Début de Soirée)",
    "date_jeu_iso": "2026-10-16",
@@ -527,13 +471,6 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Tennisman 2000",
    "vu_le": "2026-10-11T00:43:30"
-  },
-  "tennis-contact:37014": {
-   "date_jeu": "12/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-12",
-   "lieu": "Paris 20eme arrondissement (paris)",
-   "pseudo": "John-vincent Lamarck",
-   "vu_le": "2026-10-11T06:31:12"
   },
   "tennis-contact:37017": {
    "date_jeu": "16/10/2026 (Début de Soirée)",
