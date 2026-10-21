@@ -206,13 +206,6 @@
    "pseudo": "jona",
    "vu_le": "2026-10-18T19:17:05"
   },
-  "partennis:733e1ba0c1227f34": {
-   "date_jeu": "13 Octobre 2026",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "Édouard Pailleron Paris 19",
-   "pseudo": "capucinedsl",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:73add7e50c781f45": {
    "date_jeu": "15 Octobre 2026",
    "date_jeu_iso": "2026-10-15",
@@ -318,13 +311,6 @@
    "pseudo": "davidr",
    "vu_le": "2026-10-16T00:36:29"
   },
-  "partennis:a3b1f42edc718394": {
-   "date_jeu": "13 Octobre 2026",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "75012",
-   "pseudo": "tennisman2000",
-   "vu_le": "2026-10-11T00:43:26"
-  },
   "partennis:a4b1ed2f426f8488": {
    "date_jeu": "22 Octobre 2026",
    "date_jeu_iso": "2026-10-22",
@@ -345,13 +331,6 @@
    "lieu": "La faluere",
    "pseudo": "did75",
    "vu_le": "2026-10-18T19:17:04"
-  },
-  "partennis:bb0f417c83abdb45": {
-   "date_jeu": "13 Octobre 2026",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "La faluère",
-   "pseudo": "quentinp",
-   "vu_le": "2026-10-11T00:43:28"
   },
   "partennis:bff119c8df768612": {
    "date_jeu": "20 Octobre 2026",
@@ -374,26 +353,12 @@
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-19T14:54:37"
   },
-  "partennis:d0841bce724814a3": {
-   "date_jeu": "13 Octobre 2026",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "Anzin",
-   "pseudo": "memo",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:d48a640f84b63c5d": {
    "date_jeu": "19 Octobre 2026",
    "date_jeu_iso": "2026-10-19",
    "lieu": "Alain Mimoun, Paris 12e",
    "pseudo": "romainc",
    "vu_le": "2026-10-17T08:00:41"
-  },
-  "partennis:d5324290e7a56f40": {
-   "date_jeu": "13 Octobre 2026",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "Fontenay-sous-Bois",
-   "pseudo": "save1985",
-   "vu_le": "2026-10-11T13:33:36"
   },
   "partennis:dfc03207a123dede": {
    "date_jeu": "23 Octobre 2026",
@@ -513,13 +478,6 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Dominique P",
    "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37013": {
-   "date_jeu": "13/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-13",
-   "lieu": "Paris 12eme arrondissement (paris)",
-   "pseudo": "Tennisman 2000",
-   "vu_le": "2026-10-11T00:43:30"
   },
   "tennis-contact:37017": {
    "date_jeu": "16/10/2026 (Début de Soirée)",
