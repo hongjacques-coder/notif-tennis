@@ -590,6 +590,13 @@
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "Player75 Tennis",
    "vu_le": "2026-10-20T18:38:28"
+  },
+  "tennis-contact:37034": {
+   "date_jeu": "25/10/2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Metz (moselle)",
+   "pseudo": "Maxime Taupiac",
+   "vu_le": "2026-10-21T15:16:50"
   }
  },
  "sources": [
