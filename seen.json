@@ -80,6 +80,13 @@
    "pseudo": "verac",
    "vu_le": "2026-10-19T20:25:32"
   },
+  "partennis:29ca3cb4fde7a2c8": {
+   "date_jeu": "24 Octobre 2026",
+   "date_jeu_iso": "2026-10-24",
+   "lieu": "77810 Thomery ( Fontainebleau )",
+   "pseudo": "ilya7",
+   "vu_le": "2026-10-21T22:39:36"
+  },
   "partennis:2a4ad9e055a7b400": {
    "date_jeu": "31 Décembre 3000",
    "date_jeu_iso": "3000-12-31",
@@ -618,6 +625,13 @@
    "lieu": "Metz (moselle)",
    "pseudo": "Maxime Taupiac",
    "vu_le": "2026-10-21T15:16:50"
+  },
+  "tennis-contact:37035": {
+   "date_jeu": "24/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-24",
+   "lieu": "Thomery (seine et marne)",
+   "pseudo": "Ilya Fogna",
+   "vu_le": "2026-10-21T22:39:39"
   }
  },
  "sources": [
