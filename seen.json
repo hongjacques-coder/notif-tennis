@@ -374,6 +374,13 @@
    "pseudo": "teddy92",
    "vu_le": "2026-10-20T14:26:14"
   },
+  "partennis:c81b311177313571": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "24 rue Paul Barruel, 75015 Paris",
+   "pseudo": "alexandrec",
+   "vu_le": "2026-10-22T19:57:39"
+  },
   "partennis:cb161443fd7c8396": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -471,6 +478,13 @@
    "lieu": "Pont de Neuilly",
    "pseudo": "jona",
    "vu_le": "2026-10-15T21:48:39"
+  },
+  "partennis:f544363470e0177a": {
+   "date_jeu": "26 Octobre 2026",
+   "date_jeu_iso": "2026-10-26",
+   "lieu": "alain Mimoun",
+   "pseudo": "johnlamarck",
+   "vu_le": "2026-10-22T19:57:38"
   },
   "partennis:f72edd67547a3c0e": {
    "date_jeu": "22 Octobre 2026",
@@ -653,6 +667,20 @@
    "lieu": "Thomery (seine et marne)",
    "pseudo": "Ilya Fogna",
    "vu_le": "2026-10-21T22:39:39"
+  },
+  "tennis-contact:37036": {
+   "date_jeu": "24/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-24",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Gilles D.",
+   "vu_le": "2026-10-22T19:57:41"
+  },
+  "tennis-contact:37037": {
+   "date_jeu": "26/10/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-10-26",
+   "lieu": "Paris 20eme arrondissement (paris)",
+   "pseudo": "John-vincent Lamarck",
+   "vu_le": "2026-10-22T19:57:41"
   }
  },
  "sources": [
