@@ -38,6 +38,13 @@
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-16T21:33:53"
   },
+  "partennis:13a7e27a654b7c42": {
+   "date_jeu": "24 Octobre 2026",
+   "date_jeu_iso": "2026-10-24",
+   "lieu": "Neuilly sur Seine - Court Intérieur green set",
+   "pseudo": "enjoytennis",
+   "vu_le": "2026-10-22T23:11:48"
+  },
   "partennis:13e22dba9f2565df": {
    "date_jeu": "24 Octobre 2026",
    "date_jeu_iso": "2026-10-24",
@@ -79,6 +86,13 @@
    "lieu": "Niox à 9h",
    "pseudo": "verac",
    "vu_le": "2026-10-19T20:25:32"
+  },
+  "partennis:234e4e2cfbd2c6bd": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Parc du Tremblay",
+   "pseudo": "bertrand94",
+   "vu_le": "2026-10-22T23:11:49"
   },
   "partennis:29ca3cb4fde7a2c8": {
    "date_jeu": "24 Octobre 2026",
@@ -205,6 +219,13 @@
    "lieu": "Paris",
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
+  },
+  "partennis:68094a772dc91a68": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Neuilly sur Seine",
+   "pseudo": "enjoytennis",
+   "vu_le": "2026-10-22T23:11:48"
   },
   "partennis:6a902a5acc22cdbc": {
    "date_jeu": "20 Octobre 2026",
