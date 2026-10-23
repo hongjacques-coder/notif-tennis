@@ -24,6 +24,13 @@
    "pseudo": "gabby",
    "vu_le": "2026-10-19T14:54:36"
   },
+  "partennis:0d92f173b5787276": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "stade alain mimoun",
+   "pseudo": "opuhi12814",
+   "vu_le": "2026-10-23T17:09:07"
+  },
   "partennis:12c10ba3ccf1e7d5": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -184,6 +191,13 @@
    "lieu": "Bobigny - 40 Avenue de la Division Leclerc",
    "pseudo": "jeep02",
    "vu_le": "2026-10-16T09:51:29"
+  },
+  "partennis:540a97e9d85871ac": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Tennis Aurelles de Paladines (Neuilly)",
+   "pseudo": "thomas92",
+   "vu_le": "2026-10-23T17:09:07"
   },
   "partennis:551f3e1af58a0061": {
    "date_jeu": "17 Octobre 2026",
@@ -681,6 +695,13 @@
    "lieu": "Paris 20eme arrondissement (paris)",
    "pseudo": "John-vincent Lamarck",
    "vu_le": "2026-10-22T19:57:41"
+  },
+  "tennis-contact:37038": {
+   "date_jeu": "25/10/2026 (Matinée)",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Paris 12eme arrondissement (paris)",
+   "pseudo": "Christophe Duh.",
+   "vu_le": "2026-10-23T17:09:09"
   }
  },
  "sources": [
