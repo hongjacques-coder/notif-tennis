@@ -17,13 +17,6 @@
    "pseudo": "polog",
    "vu_le": "2026-10-21T19:29:04"
   },
-  "partennis:08bb669b16db4b84": {
-   "date_jeu": "15 Octobre 2026",
-   "date_jeu_iso": "2026-10-15",
-   "lieu": "Léo Lagrange",
-   "pseudo": "domyny",
-   "vu_le": "2026-10-10T17:56:29"
-  },
   "partennis:08d24270beb603dc": {
    "date_jeu": "20 Octobre 2026",
    "date_jeu_iso": "2026-10-20",
@@ -254,13 +247,6 @@
    "lieu": "Neuilly-sur-Seine",
    "pseudo": "jona",
    "vu_le": "2026-10-18T19:17:05"
-  },
-  "partennis:73add7e50c781f45": {
-   "date_jeu": "15 Octobre 2026",
-   "date_jeu_iso": "2026-10-15",
-   "lieu": "Léo Lagrange jeudi 16h",
-   "pseudo": "benhdl",
-   "vu_le": "2026-10-15T21:48:41"
   },
   "partennis:7899107ffb77e919": {
    "date_jeu": "18 Octobre 2026",
@@ -561,13 +547,6 @@
    "date_jeu_iso": "2026-10-16",
    "lieu": "Paris 15eme arrondissement (paris)",
    "pseudo": "David Boury",
-   "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37012": {
-   "date_jeu": "15/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-15",
-   "lieu": "Paris 12eme arrondissement (paris)",
-   "pseudo": "Dominique P",
    "vu_le": "2026-10-10T18:28:20"
   },
   "tennis-contact:37017": {
