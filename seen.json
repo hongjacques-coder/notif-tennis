@@ -213,6 +213,13 @@
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-22T23:11:48"
   },
+  "partennis:686fad7425dca003": {
+   "date_jeu": "26 Octobre 2026",
+   "date_jeu_iso": "2026-10-26",
+   "lieu": "Moureau Baudricourt",
+   "pseudo": "tennisplayer",
+   "vu_le": "2026-10-24T11:57:04"
+  },
   "partennis:6a902a5acc22cdbc": {
    "date_jeu": "20 Octobre 2026",
    "date_jeu_iso": "2026-10-20",
@@ -472,6 +479,13 @@
    "pseudo": "alekstennis",
    "vu_le": "2026-10-20T09:17:27"
   },
+  "partennis:f88013ffa621a84b": {
+   "date_jeu": "24 Octobre 2026",
+   "date_jeu_iso": "2026-10-24",
+   "lieu": "Tennis Niox",
+   "pseudo": "jubi",
+   "vu_le": "2026-10-24T11:57:04"
+  },
   "partennis:f88b0cabaeeb2b16": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -625,6 +639,13 @@
    "lieu": "Neuilly sur seine (hauts de seine)",
    "pseudo": "Bena Malou",
    "vu_le": "2026-10-23T23:23:51"
+  },
+  "tennis-contact:37040": {
+   "date_jeu": "28/10/2026 (Heure du déjeuner)",
+   "date_jeu_iso": "2026-10-28",
+   "lieu": "Paris 15eme arrondissement (paris)",
+   "pseudo": "Gilles D.",
+   "vu_le": "2026-10-24T11:57:06"
   }
  },
  "sources": [
