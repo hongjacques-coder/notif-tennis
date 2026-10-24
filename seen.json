@@ -360,6 +360,13 @@
    "pseudo": "did75",
    "vu_le": "2026-10-18T19:17:04"
   },
+  "partennis:bb301105a2186b74": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Neuilly boulevard Koenig",
+   "pseudo": "enjoytennis",
+   "vu_le": "2026-10-24T18:23:20"
+  },
   "partennis:bff119c8df768612": {
    "date_jeu": "20 Octobre 2026",
    "date_jeu_iso": "2026-10-20",
@@ -514,6 +521,13 @@
    "pseudo": "isdeb",
    "vu_le": "2026-10-19T14:54:41"
   },
+  "partennis:fcd775cfcfbb873b": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Parc du Tremblay",
+   "pseudo": "bertrand94",
+   "vu_le": "2026-10-24T18:23:20"
+  },
   "partennis:fce6ccec67c6286f": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -660,6 +674,13 @@
    "lieu": "Paris 15eme arrondissement (paris)",
    "pseudo": "Gilles D.",
    "vu_le": "2026-10-24T11:57:06"
+  },
+  "tennis-contact:37042": {
+   "date_jeu": "30/10/2026 (Matinée)",
+   "date_jeu_iso": "2026-10-30",
+   "lieu": "St jean de vedas (hérault)",
+   "pseudo": "Phil Roland",
+   "vu_le": "2026-10-24T18:23:21"
   }
  },
  "sources": [
