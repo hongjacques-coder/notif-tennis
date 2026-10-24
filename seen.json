@@ -52,13 +52,6 @@
    "pseudo": "isdeb",
    "vu_le": "2026-10-21T10:10:37"
   },
-  "partennis:151cc07f1c7a24d0": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Elisabeth - Court 7 (couvert)",
-   "pseudo": "polog",
-   "vu_le": "2026-10-10T17:56:49"
-  },
   "partennis:1b433a32fc16f741": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -107,13 +100,6 @@
    "lieu": "Meudon",
    "pseudo": "philipjs",
    "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:2e06b3dfb6f66bf5": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Max Rousié 18e",
-   "pseudo": "psb75",
-   "vu_le": "2026-10-15T21:48:41"
   },
   "partennis:307e19142e2c39c7": {
    "date_jeu": "20 Octobre 2026",
@@ -178,13 +164,6 @@
    "pseudo": "benhdl",
    "vu_le": "2026-10-18T16:48:04"
   },
-  "partennis:4b9041dddfa1f048": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "jules ladoumegues",
-   "pseudo": "rachos78",
-   "vu_le": "2026-10-15T21:48:45"
-  },
   "partennis:52403ada0ee43a77": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
@@ -241,13 +220,6 @@
    "pseudo": "fafadjokovic",
    "vu_le": "2026-10-20T14:26:13"
   },
-  "partennis:6b4c5b021ae10aab": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "92",
-   "pseudo": "karim92",
-   "vu_le": "2026-10-15T21:48:46"
-  },
   "partennis:725c397bb5c9dd63": {
    "date_jeu": "20 Octobre 2026",
    "date_jeu_iso": "2026-10-20",
@@ -290,13 +262,6 @@
    "pseudo": "sebten",
    "vu_le": "2026-10-18T09:27:04"
   },
-  "partennis:8d6a96fc4a0aaffe": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Ile de Puteaux (Urban)",
-   "pseudo": "gabby",
-   "vu_le": "2026-10-16T21:33:53"
-  },
   "partennis:8eaa3b28754acdf8": {
    "date_jeu": "18 Octobre 2026",
    "date_jeu_iso": "2026-10-18",
@@ -318,26 +283,12 @@
    "pseudo": "bertrand94",
    "vu_le": "2026-10-18T13:29:05"
   },
-  "partennis:90f4e75243c9e8cd": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Tennis Amiot COLOMBE",
-   "pseudo": "teddy92",
-   "vu_le": "2026-10-16T09:51:32"
-  },
   "partennis:9194f6c9a413e1be": {
    "date_jeu": "17 Octobre 2026",
    "date_jeu_iso": "2026-10-17",
    "lieu": "Paris et environs",
    "pseudo": "tennispro",
    "vu_le": "2026-10-16T14:38:35"
-  },
-  "partennis:9874907d1166d7c9": {
-   "date_jeu": "16 Octobre 2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Tennis Alain Mimoun (Paris 12e)",
-   "pseudo": "harold92200",
-   "vu_le": "2026-10-15T21:48:44"
   },
   "partennis:9c83189e3cb46b2c": {
    "date_jeu": "18 Octobre 2026",
@@ -556,27 +507,6 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37011": {
-   "date_jeu": "16/10/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "David Boury",
-   "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37017": {
-   "date_jeu": "16/10/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "I. A.",
-   "vu_le": "2026-10-15T21:48:50"
-  },
-  "tennis-contact:37018": {
-   "date_jeu": "16/10/2026",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Paris 19eme arrondissement (paris)",
-   "pseudo": "Ra Ad",
-   "vu_le": "2026-10-15T21:48:48"
-  },
   "tennis-contact:37019": {
    "date_jeu": "18/10/2026 (Matinée)",
    "date_jeu_iso": "2026-10-18",
@@ -590,27 +520,6 @@
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "Olivier Marzouk",
    "vu_le": "2026-10-15T21:48:54"
-  },
-  "tennis-contact:37022": {
-   "date_jeu": "16/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Nantes (loire atlantique)",
-   "pseudo": "Christophe Bonnamy",
-   "vu_le": "2026-10-15T21:48:50"
-  },
-  "tennis-contact:37023": {
-   "date_jeu": "16/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Paris 18eme arrondissement (paris)",
-   "pseudo": "Paul Sb",
-   "vu_le": "2026-10-15T21:48:51"
-  },
-  "tennis-contact:37024": {
-   "date_jeu": "16/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-16",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "Alexander B",
-   "vu_le": "2026-10-15T21:48:52"
   },
   "tennis-contact:37025": {
    "date_jeu": "20/10/2026 (Début de Soirée)",
