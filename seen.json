@@ -3,6 +3,13 @@
   "partennis:incomplet": "2026-10-18"
  },
  "parties": {
+  "partennis:03c04b90e28fa492": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Angers ou alentours",
+   "pseudo": "leol7",
+   "vu_le": "2026-10-25T12:02:02"
+  },
   "partennis:04f6bb35ec09ed7e": {
    "date_jeu": "26 Octobre 2026",
    "date_jeu_iso": "2026-10-26",
@@ -332,6 +339,13 @@
    "pseudo": "mohsen83",
    "vu_le": "2026-10-24T21:04:54"
   },
+  "partennis:c220ff61373dd1d4": {
+   "date_jeu": "29 Octobre 2026",
+   "date_jeu_iso": "2026-10-29",
+   "lieu": "jules ladoumegues",
+   "pseudo": "rachos78",
+   "vu_le": "2026-10-25T12:02:04"
+  },
   "partennis:c81b311177313571": {
    "date_jeu": "25 Octobre 2026",
    "date_jeu_iso": "2026-10-25",
@@ -345,6 +359,13 @@
    "lieu": "Dordives",
    "pseudo": "sly20",
    "vu_le": "2026-10-10T17:56:29"
+  },
+  "partennis:ce541fb90966b664": {
+   "date_jeu": "25 Octobre 2026",
+   "date_jeu_iso": "2026-10-25",
+   "lieu": "Neuilly",
+   "pseudo": "enjoytennis",
+   "vu_le": "2026-10-25T12:02:02"
   },
   "partennis:cf230ef6c61b784b": {
    "date_jeu": "19 Octobre 2026",
@@ -625,6 +646,20 @@
    "lieu": "St jean de vedas (hérault)",
    "pseudo": "Phil Roland",
    "vu_le": "2026-10-24T18:23:21"
+  },
+  "tennis-contact:37043": {
+   "date_jeu": "26/10/2026 (Début de Soirée)",
+   "date_jeu_iso": "2026-10-26",
+   "lieu": "Paris 15eme arrondissement (paris)",
+   "pseudo": "Alain Lb",
+   "vu_le": "2026-10-25T12:02:06"
+  },
+  "tennis-contact:37044": {
+   "date_jeu": "29/10/2026 (Matinée)",
+   "date_jeu_iso": "2026-10-29",
+   "lieu": "Paris 19eme arrondissement (paris)",
+   "pseudo": "Ra Ad",
+   "vu_le": "2026-10-25T12:02:07"
   }
  },
  "sources": [
