@@ -24,7 +24,7 @@ Tourne gratuitement sur GitHub Actions.
 
 ## ON / OFF
 
-- **OFF** : *Actions* → *notif-tennis* → bouton `···` → **Disable workflow** (ou désactiver le job dans cron-job.org).
+- **OFF** : *Actions* → *notif-tennis* → bouton `···` → **Disable workflow**.
 - **ON** : même endroit → **Enable workflow**.
 
 Ça marche aussi depuis l'app mobile GitHub ou le navigateur du téléphone.
@@ -34,42 +34,17 @@ Avant cette date (heure de Paris), le script ne vérifie rien. Il reprend tout s
 À la reprise, les parties publiées pendant la pause et encore en ligne sont notifiées.
 `REPRISE_LE = ""` = pas de pause.
 
-## Fréquence : toutes les 15 min, de 7h à 22h
+## Changer la fréquence (X minutes)
 
-Le planificateur de GitHub ne lance les runs que toutes les ~4-5 h sur ce repo.
-Le vrai déclencheur est donc **cron-job.org** (gratuit), qui appelle GitHub à l'heure précise.
+Dans `.github/workflows/notif-tennis.yml`, ligne `cron` :
 
-**Budget (repo privé = 2 000 min gratuites / mois, 1 min comptée par run) :**
-4 runs/h × 15 h × 30 jours = 1 800 min + filet de sécurité GitHub (3/jour) ≈ 1 890 min ✅
+| Fréquence | Valeur |
+|---|---|
+| 5 min (minimum GitHub) | `"*/5 * * * *"` |
+| 10 min | `"*/10 * * * *"` |
+| 30 min | `"*/30 * * * *"` |
 
-### Mise en place de cron-job.org (une seule fois)
-
-1. **Token GitHub** : <https://github.com/settings/personal-access-tokens/new>
-   - Token name : `cron-notif-tennis`, Expiration : 1 an
-   - Repository access : *Only select repositories* → `notif-tennis`
-   - Repository permissions → **Actions : Read and write**
-   - *Generate token* → copier (`github_pat_…`). Ne le partager avec personne.
-2. **Compte gratuit** sur <https://cron-job.org> → *Create cronjob* :
-   - URL : `https://api.github.com/repos/hongjacques-coder/notif-tennis/actions/workflows/notif-tennis.yml/dispatches`
-   - Execution schedule → *Custom* :
-     - Minutes : `0, 15, 30, 45`
-     - Hours : `7` à `21`
-     - Days / Months / Weekdays : tous
-     - Time zone : **Europe/Paris**
-3. Onglet **Advanced** :
-   - Request method : `POST`
-   - Headers :
-     - `Accept` : `application/vnd.github+json`
-     - `Authorization` : `Bearer github_pat_…`
-     - `X-GitHub-Api-Version` : `2022-11-28`
-     - `Content-Type` : `application/json`
-   - Request body : `{"ref":"main"}`
-4. *Save* → *Test run* : réponse attendue **204**, et un run apparaît dans l'onglet *Actions*.
-
-### Changer la plage horaire ou la fréquence
-
-- Plage horaire : `HEURE_DEBUT, HEURE_FIN` en haut de `notif_tennis.py` **et** les heures dans cron-job.org.
-- Fréquence : les minutes dans cron-job.org. Attention au budget de 2 000 min / mois.
+⚠️ GitHub peut retarder les runs planifiés de quelques minutes aux heures chargées.
 
 ## Filtres (optionnels)
 

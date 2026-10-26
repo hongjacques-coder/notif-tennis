@@ -1,11 +1,9 @@
 name: notif-tennis
 
 on:
-  # Déclencheur principal : cron-job.org (toutes les 15 min, 7h-22h heure de Paris),
-  # car le planificateur GitHub ne lance les runs que toutes les ~4-5 h sur ce repo.
-  # Ci-dessous : simple filet de sécurité, 3 fois par jour (heures UTC).
   schedule:
-    - cron: "0 7,12,17 * * *"
+    # Fréquence de vérification. "*/15" = toutes les 15 minutes (minimum GitHub : 5).
+    - cron: "*/15 * * * *"
   workflow_dispatch: # bouton "Run workflow" pour lancer à la main
     inputs:
       test_discord:

@@ -27,10 +27,6 @@ from bs4 import BeautifulSoup
 # Format "AAAA-MM-JJ". "" = pas de pause.
 REPRISE_LE = ""
 
-# Plage horaire active (heure de Paris) : vérifications de HEURE_DEBUT h à HEURE_FIN h.
-# En dehors, le run s'arrête tout de suite. (0, 24) = 24 h/24.
-HEURE_DEBUT, HEURE_FIN = 7, 22
-
 SEEN_FILE = Path(__file__).with_name("seen.json")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 
@@ -430,12 +426,9 @@ def main() -> int:
         log("Notification de test envoyée.")
         return 0
 
-    maintenant = datetime.now(ZoneInfo("Europe/Paris"))
-    if REPRISE_LE and maintenant.date() < date.fromisoformat(REPRISE_LE):
+    aujourdhui = datetime.now(ZoneInfo("Europe/Paris")).date()
+    if REPRISE_LE and aujourdhui < date.fromisoformat(REPRISE_LE):
         log(f"En pause jusqu'au {REPRISE_LE} : aucune vérification.")
-        return 0
-    if not HEURE_DEBUT <= maintenant.hour < HEURE_FIN:
-        log(f"Hors plage horaire ({HEURE_DEBUT}h-{HEURE_FIN}h, heure de Paris) : aucune vérification.")
         return 0
 
     seen = charger_seen()
