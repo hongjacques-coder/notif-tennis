@@ -25,7 +25,9 @@ Tourne gratuitement sur GitHub Actions.
 ## ON / OFF
 
 - **OFF** : *Actions* → *notif-tennis* → bouton `···` → **Disable workflow**.
-- **ON** : même endroit → **Enable workflow**.
+  La boucle en cours le détecte et s'arrête en 5 min max.
+- **ON** : même endroit → **Enable workflow**, puis **Run workflow** pour relancer la chaîne tout de suite
+  (sinon le cron de secours la relance tout seul, parfois après quelques heures).
 
 Ça marche aussi depuis l'app mobile GitHub ou le navigateur du téléphone.
 
@@ -34,17 +36,19 @@ Avant cette date (heure de Paris), le script ne vérifie rien. Il reprend tout s
 À la reprise, les parties publiées pendant la pause et encore en ligne sont notifiées.
 `REPRISE_LE = ""` = pas de pause.
 
-## Changer la fréquence (X minutes)
+## Fréquence : toutes les 5 min, 24 h/24
 
-Dans `.github/workflows/notif-tennis.yml`, ligne `cron` :
+Le planificateur de GitHub n'est pas fiable (un run toutes les ~4-5 h). Le script tourne donc **en boucle** :
 
-| Fréquence | Valeur |
-|---|---|
-| 5 min (minimum GitHub) | `"*/5 * * * *"` |
-| 10 min | `"*/10 * * * *"` |
-| 30 min | `"*/30 * * * *"` |
+1. Un run vérifie les sites toutes les `INTERVALLE_MINUTES` (5) pendant `DUREE_RUN_MINUTES` (340, soit ~5h40).
+2. À la fin, il relance automatiquement le run suivant (`gh workflow run`).
+3. Le cron `*/15` du workflow sert de filet de sécurité pour redémarrer la chaîne si elle casse.
+4. `seen.json` est sauvegardé (commit) dès qu'une nouvelle partie est vue.
 
-⚠️ GitHub peut retarder les runs planifiés de quelques minutes aux heures chargées.
+⚠️ Le mode boucle ne s'active que si le **repo est public** (minutes GitHub Actions illimitées).
+Si le repo redevient privé, le script ne fait qu'une vérification par run, pour ne pas vider le quota.
+
+Changer la fréquence : `INTERVALLE_MINUTES` en haut de `notif_tennis.py` (1 min possible).
 
 ## Filtres (optionnels)
 

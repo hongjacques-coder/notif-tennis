@@ -1,8 +1,9 @@
 name: notif-tennis
 
 on:
+  # Chaque run boucle ~5h40 (vérif toutes les 5 min) puis relance le suivant.
+  # Ce cron ne sert que de filet de sécurité pour redémarrer la chaîne si elle casse.
   schedule:
-    # Fréquence de vérification. "*/15" = toutes les 15 minutes (minimum GitHub : 5).
     - cron: "*/15 * * * *"
   workflow_dispatch: # bouton "Run workflow" pour lancer à la main
     inputs:
@@ -17,11 +18,12 @@ concurrency:
 
 permissions:
   contents: write # pour recommiter seen.json
+  actions: write  # pour relancer le run suivant et lire l'état du workflow
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
 
@@ -41,7 +43,8 @@ jobs:
       - name: Vérifier les nouvelles parties
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python notif_tennis.py
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python notif_tennis.py --boucle
 
       - name: Sauvegarder seen.json
         if: always()
@@ -53,3 +56,11 @@ jobs:
           git commit -m "MAJ seen.json"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
+
+      - name: Relancer le run suivant
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f .relancer ] || exit 0
+          gh workflow run notif-tennis.yml --ref "${GITHUB_REF_NAME}"

@@ -10,6 +10,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -26,6 +27,12 @@ from bs4 import BeautifulSoup
 # Pause : aucune vérification ni notification avant cette date (heure de Paris).
 # Format "AAAA-MM-JJ". "" = pas de pause.
 REPRISE_LE = ""
+
+# Mode boucle (GitHub Actions, repo public uniquement) :
+# un run vérifie les sites toutes les INTERVALLE_MINUTES pendant DUREE_RUN_MINUTES,
+# puis relance le run suivant. Max GitHub : 360 min par run.
+INTERVALLE_MINUTES = 5
+DUREE_RUN_MINUTES = 340
 
 SEEN_FILE = Path(__file__).with_name("seen.json")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
@@ -420,18 +427,8 @@ def traiter_source(source, seen: dict) -> int:
     return nouvelles
 
 
-def main() -> int:
-    if "--test" in sys.argv:
-        discord({"content": "✅ notif-tennis : le webhook Discord fonctionne !"})
-        log("Notification de test envoyée.")
-        return 0
-
-    aujourdhui = datetime.now(ZoneInfo("Europe/Paris")).date()
-    if REPRISE_LE and aujourdhui < date.fromisoformat(REPRISE_LE):
-        log(f"En pause jusqu'au {REPRISE_LE} : aucune vérification.")
-        return 0
-
-    seen = charger_seen()
+def verifier(seen: dict) -> int:
+    """Une vérification de toutes les sources. Renvoie le nombre de sources en erreur."""
     erreurs = 0
     for source in SOURCES:
         try:
@@ -440,6 +437,107 @@ def main() -> int:
             erreurs += 1
             log(f"[{source.nom}] ERREUR : {e}")
     sauver_seen(seen)
+    return erreurs
+
+
+def en_pause() -> bool:
+    aujourdhui = datetime.now(ZoneInfo("Europe/Paris")).date()
+    if REPRISE_LE and aujourdhui < date.fromisoformat(REPRISE_LE):
+        log(f"En pause jusqu'au {REPRISE_LE} : aucune vérification.")
+        return True
+    return False
+
+
+# --- GitHub (mode boucle) -----------------------------------------------------
+
+def github_api(chemin: str) -> dict:
+    r = requests.get(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}{chemin}",
+                     headers={"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+                              "Accept": "application/vnd.github+json"}, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+
+def repo_public() -> bool:
+    """Sécurité quota : on ne boucle que si le repo est public (minutes illimitées)."""
+    if not os.environ.get("GITHUB_TOKEN") or not os.environ.get("GITHUB_REPOSITORY"):
+        return False
+    try:
+        return not github_api("")["private"]
+    except Exception as e:
+        log(f"Visibilité du repo inconnue ({e}) : pas de boucle.")
+        return False
+
+
+def workflow_actif() -> bool:
+    """False si le workflow a été désactivé (bouton 'Disable workflow')."""
+    try:
+        return github_api("/actions/workflows/notif-tennis.yml")["state"] == "active"
+    except Exception as e:
+        log(f"État du workflow inconnu ({e}) : on continue.")
+        return True
+
+
+def sauvegarder_git() -> None:
+    """Commit + push de seen.json s'il a changé (évite les doublons si le run s'interrompt)."""
+    def git(*args):
+        return subprocess.run(["git", *args], capture_output=True, text=True)
+
+    if git("diff", "--quiet", "--", SEEN_FILE.name).returncode == 0:
+        return
+    git("config", "user.name", "notif-tennis-bot")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    git("add", SEEN_FILE.name)
+    git("commit", "-m", "MAJ seen.json")
+    branche = os.environ.get("GITHUB_REF_NAME", "main")
+    for _ in range(3):
+        if git("pull", "--rebase", "origin", branche).returncode == 0 and git("push").returncode == 0:
+            return
+        time.sleep(5)
+    log("seen.json : push impossible, nouvel essai au prochain tour.")
+
+
+def boucle() -> int:
+    fin = time.monotonic() + DUREE_RUN_MINUTES * 60
+    tour = 0
+    while True:
+        tour += 1
+        debut = time.monotonic()
+        log(f"--- Tour {tour} ---")
+        verifier(charger_seen())
+        sauvegarder_git()
+
+        prochain = debut + INTERVALLE_MINUTES * 60
+        if prochain > fin:
+            # Durée écoulée : on demande au workflow de lancer le run suivant
+            Path(".relancer").touch()
+            log(f"Fin du run après {tour} tour(s) : relance du run suivant.")
+            return 0
+        time.sleep(max(0.0, prochain - time.monotonic()))
+        if not workflow_actif():
+            log("Workflow désactivé : arrêt de la boucle.")
+            return 0
+        if en_pause():
+            return 0
+
+
+def main() -> int:
+    if "--test" in sys.argv:
+        discord({"content": "✅ notif-tennis : le webhook Discord fonctionne !"})
+        log("Notification de test envoyée.")
+        return 0
+
+    if en_pause():
+        return 0
+
+    if "--boucle" in sys.argv:
+        if repo_public():
+            log(f"Mode boucle : vérification toutes les {INTERVALLE_MINUTES} min "
+                f"pendant {DUREE_RUN_MINUTES} min.")
+            return boucle()
+        log("Repo privé (ou hors GitHub) : une seule vérification, pas de boucle.")
+
+    erreurs = verifier(charger_seen())
     return 1 if erreurs == len(SOURCES) else 0
 
 
