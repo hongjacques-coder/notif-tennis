@@ -73,13 +73,6 @@
    "pseudo": "natilang32",
    "vu_le": "2026-10-19T14:54:37"
   },
-  "partennis:2193f1e4dd11b0bb": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Niox à 9h",
-   "pseudo": "verac",
-   "vu_le": "2026-10-19T20:25:32"
-  },
   "partennis:234e4e2cfbd2c6bd": {
    "date_jeu": "25 Octobre 2026",
    "date_jeu_iso": "2026-10-25",
@@ -121,13 +114,6 @@
    "lieu": "La Faluère",
    "pseudo": "dubonsong",
    "vu_le": "2026-10-21T19:29:04"
-  },
-  "partennis:3880bc9ae0507065": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Parc Choisy Paris Val De Marne",
-   "pseudo": "gaona2025",
-   "vu_le": "2026-10-17T22:32:49"
   },
   "partennis:3913b59af85b9389": {
    "date_jeu": "22 Octobre 2026",
@@ -178,20 +164,6 @@
    "pseudo": "thomas92",
    "vu_le": "2026-10-23T17:09:07"
   },
-  "partennis:5623031a31791893": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Paris 15 - Suzanne lenglen",
-   "pseudo": "dacie",
-   "vu_le": "2026-10-18T19:17:02"
-  },
-  "partennis:57a6dc51ff7c2b8f": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Suzanne Lenglen Paris 15",
-   "pseudo": "alexxx",
-   "vu_le": "2026-10-17T20:23:27"
-  },
   "partennis:5f6b9e4989ab82c7": {
    "date_jeu": "16 Décembre 2026",
    "date_jeu_iso": "2026-12-16",
@@ -226,13 +198,6 @@
    "lieu": "Tennis Elisabeth - court couvert",
    "pseudo": "bsuire",
    "vu_le": "2026-10-20T14:26:13"
-  },
-  "partennis:7acb8dca6f6f6448": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "La chapelle d’armentieres",
-   "pseudo": "aymericlos",
-   "vu_le": "2026-10-19T14:54:37"
   },
   "partennis:801ee91b5de1b6ca": {
    "date_jeu": "20 Octobre 2026",
@@ -318,13 +283,6 @@
    "pseudo": "doriannourj",
    "vu_le": "2026-10-26T15:22:47"
   },
-  "partennis:b73be2512e403af3": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "La faluere",
-   "pseudo": "did75",
-   "vu_le": "2026-10-18T19:17:04"
-  },
   "partennis:b9f839845536738b": {
    "date_jeu": "27 Octobre 2026",
    "date_jeu_iso": "2026-10-27",
@@ -395,26 +353,12 @@
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-25T12:02:02"
   },
-  "partennis:cf230ef6c61b784b": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Neuilly sur. Seine, 40 bld du Parc",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-19T14:54:37"
-  },
   "partennis:d3c687a985f5b57d": {
    "date_jeu": "28 Octobre 2026",
    "date_jeu_iso": "2026-10-28",
    "lieu": "WOTC Wattignies Olympique Tennis Club",
    "pseudo": "yoyocolmtennis",
    "vu_le": "2026-10-25T21:49:04"
-  },
-  "partennis:d48a640f84b63c5d": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Alain Mimoun, Paris 12e",
-   "pseudo": "romainc",
-   "vu_le": "2026-10-17T08:00:41"
   },
   "partennis:d5bebbf8eaa3ad5e": {
    "date_jeu": "24 Octobre 2026",
@@ -436,13 +380,6 @@
    "lieu": "alain Mimoun",
    "pseudo": "johnlamarck",
    "vu_le": "2026-10-18T13:29:04"
-  },
-  "partennis:e06754eb9e23476f": {
-   "date_jeu": "19 Octobre 2026",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Le Guilvinec, Lesconil.",
-   "pseudo": "totopsg",
-   "vu_le": "2026-10-10T17:56:29"
   },
   "partennis:e24b4872f6913830": {
    "date_jeu": "28 Octobre 2026",
@@ -556,13 +493,6 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37021": {
-   "date_jeu": "19/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "Olivier Marzouk",
-   "vu_le": "2026-10-15T21:48:54"
-  },
   "tennis-contact:37025": {
    "date_jeu": "20/10/2026 (Début de Soirée)",
    "date_jeu_iso": "2026-10-20",
@@ -590,13 +520,6 @@
    "lieu": "Paris 20eme arrondissement (paris)",
    "pseudo": "John-vincent Lamarck",
    "vu_le": "2026-10-18T13:29:06"
-  },
-  "tennis-contact:37031": {
-   "date_jeu": "19/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-19",
-   "lieu": "Paris 12eme arrondissement (paris)",
-   "pseudo": "Didier G",
-   "vu_le": "2026-10-18T19:17:06"
   },
   "tennis-contact:37032": {
    "date_jeu": "25/10/2026 (Matinée)",
