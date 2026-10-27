@@ -94,6 +94,13 @@
    "pseudo": "bertrand94",
    "vu_le": "2026-10-22T23:11:49"
   },
+  "partennis:23ec9abadb831634": {
+   "date_jeu": "29 Octobre 2026",
+   "date_jeu_iso": "2026-10-29",
+   "lieu": "Centre sportif Elisabeth 07 avenue Paul Appell, Paris 14e",
+   "pseudo": "tonio26",
+   "vu_le": "2026-10-27T12:04:38"
+  },
   "partennis:29ca3cb4fde7a2c8": {
    "date_jeu": "24 Octobre 2026",
    "date_jeu_iso": "2026-10-24",
@@ -653,6 +660,13 @@
    "lieu": "Paris 10eme arrondissement (paris)",
    "pseudo": "Emmanuelle Vandevoorde",
    "vu_le": "2026-10-26T19:07:54"
+  },
+  "tennis-contact:37047": {
+   "date_jeu": "29/10/2026 (Heure du déjeuner)",
+   "date_jeu_iso": "2026-10-29",
+   "lieu": "Paris 14eme arrondissement (paris)",
+   "pseudo": "Antoine D.p.m",
+   "vu_le": "2026-10-27T12:04:40"
   }
  },
  "sources": [
