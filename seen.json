@@ -115,6 +115,13 @@
    "pseudo": "philipjs",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:2defa243152d0553": {
+   "date_jeu": "28 Octobre 2026",
+   "date_jeu_iso": "2026-10-28",
+   "lieu": "Elisabeth (7 Av. Paul Appell ou 75014 Paris)",
+   "pseudo": "quentin24",
+   "vu_le": "2026-10-27T19:25:59"
+  },
   "partennis:307e19142e2c39c7": {
    "date_jeu": "20 Octobre 2026",
    "date_jeu_iso": "2026-10-20",
@@ -695,6 +702,13 @@
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "Antoine D.p.m",
    "vu_le": "2026-10-27T12:04:40"
+  },
+  "tennis-contact:37048": {
+   "date_jeu": "28/10/2026 (Matinée)",
+   "date_jeu_iso": "2026-10-28",
+   "lieu": "Paris 14eme arrondissement (paris)",
+   "pseudo": "Quentin De waele",
+   "vu_le": "2026-10-27T19:26:01"
   }
  },
  "sources": [
