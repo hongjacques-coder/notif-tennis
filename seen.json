@@ -437,6 +437,13 @@
    "pseudo": "alexxx",
    "vu_le": "2026-10-24T06:58:02"
   },
+  "partennis:eb537409754c8202": {
+   "date_jeu": "29 Octobre 2026",
+   "date_jeu_iso": "2026-10-29",
+   "lieu": "Paris environs",
+   "pseudo": "tennispro",
+   "vu_le": "2026-10-28T16:43:31"
+  },
   "partennis:ebc8234402681f8c": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -618,6 +625,13 @@
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "Quentin De waele",
    "vu_le": "2026-10-27T19:26:01"
+  },
+  "tennis-contact:37050": {
+   "date_jeu": "30/11/2026 (Début de Soirée)",
+   "date_jeu_iso": "2026-11-30",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Pierre Durant",
+   "vu_le": "2026-10-28T16:43:34"
   }
  },
  "sources": [
