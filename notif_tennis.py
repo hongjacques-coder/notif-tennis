@@ -4,6 +4,7 @@ et envoie une notification Discord pour chaque nouvelle partie.
 Sources :
   - partennis.com/proposition-de-partie
   - tennis-contact.com/parties.php
+  - tennissables.com/parties-tennis
 """
 
 import hashlib
@@ -310,7 +311,125 @@ class TennisContact:
         return True, ""
 
 
-SOURCES = [Partennis(), TennisContact()]
+# --- Source 3 : Tennissables -------------------------------------------------
+
+# Lieux de Paris / IDF souvent cités sans ville (texte normalisé) -> département
+LIEUX_CONNUS = {
+    "lenglen": "75", "elisabeth": "75", "faluere": "75", "aquaboulevard": "75",
+    "jesse owens": "75", "luxembourg": "75", "ladoumegue": "75", "max rousie": "75",
+    "leo lagrange": "75", "alain mimoun": "75", "poliveau": "75", "carpentier": "75",
+    "roland garros": "75", "bois de boulogne": "75", "candie": "75", "atlantique": "75",
+    "arthur ashe": "93", "paladines": "92",
+}
+
+
+class Tennissables:
+    nom = "Tennissables"
+    cle = "tennissables"
+    url = "https://tennissables.com/parties-tennis/"
+
+    def __init__(self):
+        self._cache_geo: dict[str, str] = {}
+
+    def scraper(self) -> tuple[list[dict], int | None]:
+        soup = fetch(self.url)
+        m = re.search(r"(\d+)\s+parties? propos", soup.get_text(" "))
+        attendu = int(m.group(1)) if m else None
+        parties = [p for p in (self.parse(tr) for tr in soup.select(".tennis-listing tbody tr")) if p]
+        log(f"[{self.nom}] Page 1 : {len(parties)} partie(s)")
+        return parties, attendu
+
+    def parse(self, tr) -> dict | None:
+        def champ(classe: str) -> str:
+            td = tr.select_one(f"td.{classe}")
+            return td.get_text(" ", strip=True) if td else ""
+
+        lien = tr.select_one("td.joueur a")
+        if not lien:
+            return None
+        profil_url = lien.get("href", self.url)
+        pseudo = champ("joueur")
+        date_txt, heure, niveau = champ("date"), champ("heure"), champ("niveau-min")
+        lieu, infos = champ("lieu"), champ("details")
+        d = re.search(r"(\d{2})/(\d{2})/(\d{4})", date_txt)
+        slug = profil_url.rstrip("/").split("/")[-1]
+        empreinte = hashlib.sha256("|".join([slug, date_txt, heure, lieu, infos]).encode()).hexdigest()[:16]
+        niveau_norm = "Débutant" if normaliser(niveau).startswith("non class") else niveau
+        return {
+            "id": empreinte,
+            "pseudo": pseudo,
+            "url": profil_url,
+            "date_jeu": f"{date_txt} {heure}".strip(),
+            "date_iso": f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None,
+            "lieu": lieu,
+            "niv_min": niveau_norm,
+            "niveaux_texte": [n for n in re.findall(r"(?<![\d/])(-?\d{1,2}/\d)(?![\d/])", infos) if n in NIVEAUX],
+            "reservee": False,
+            "champs": [
+                ("📅 Quand", f"{date_txt} à {heure}", True),
+                ("📍 Où", lieu or "?", True),
+                ("🏆 Niveau min", niveau or "non précisé", True),
+                ("👤 Joueur", pseudo, False),
+                ("ℹ️ Infos", infos, False),
+            ],
+        }
+
+    def departement(self, lieu: str, infos: str = "") -> str:
+        """Devine le département d'un lieu en texte libre. "" si inconnu.
+        Lieu vide : on cherche dans la description (sans géocodage)."""
+        texte = normaliser(lieu or infos)
+        m = re.search(r"\b(\d{2})\d{3}\b", texte) or re.search(r"\((\d{2})\)", lieu)
+        if m:
+            return m.group(1)
+        if re.search(r"\bparis\b", texte) or re.search(r"\b\d{1,2}\s*(e|er|eme|ieme)\b", texte):
+            return "75"
+        for nom, code in LIEUX_CONNUS.items():
+            if nom in texte:
+                return code
+        if not lieu:
+            return ""
+        if texte not in self._cache_geo:
+            self._cache_geo[texte] = self.geocoder(lieu)
+        return self._cache_geo[texte]
+
+    def geocoder(self, lieu: str) -> str:
+        """Ville -> département via l'API Adresse du gouvernement (gratuite, sans clé)."""
+        for _ in range(3):
+            try:
+                r = requests.get("https://api-adresse.data.gouv.fr/search/",
+                                 params={"q": lieu[:200], "type": "municipality", "limit": 1}, timeout=15)
+                f = r.json().get("features") or []
+                if f and f[0]["properties"]["score"] >= 0.6:
+                    return f[0]["properties"]["postcode"][:2]
+                return ""
+            except Exception:
+                time.sleep(2)
+        return ""
+
+    def filtrer(self, p: dict) -> tuple[bool, str]:
+        alertes = []
+        if DEPARTEMENTS:
+            dept = self.departement(p["lieu"], p["champs"][-1][1])
+            if dept and dept not in DEPARTEMENTS:
+                return False, ""
+            if not dept:
+                alertes.append(f"Lieu non reconnu (« {p['lieu'] or 'non indiqué'} »), peut-être hors Île-de-France")
+        if NIVEAU_MAX:
+            ok = niveau_ok(p["niv_min"])
+            if ok is False:
+                return False, ""
+            if ok is None:
+                cites = [niveau_ok(n) for n in p["niveaux_texte"]]
+                if cites and not any(cites):
+                    return False, ""
+                if not cites:
+                    alertes.append("Niveau non précisé dans l'annonce")
+                elif not all(cites):
+                    alertes.append(f"Niveaux cités : {', '.join(p['niveaux_texte'])} (certains > {NIVEAU_MAX})")
+        return True, " · ".join(alertes)
+
+
+SOURCES = [Partennis(), TennisContact(), Tennissables()]
 
 
 # --- Discord ------------------------------------------------------------------

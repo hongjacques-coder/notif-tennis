@@ -4,6 +4,7 @@ Notification Discord à chaque nouvelle partie publiée sur :
 
 - <https://www.partennis.com/proposition-de-partie>
 - <https://www.tennis-contact.com/parties.php>
+- <https://tennissables.com/parties-tennis/>
 
 Tourne gratuitement sur GitHub Actions.
 
@@ -63,6 +64,11 @@ NIVEAU_MAX = "30/2"  # "" = pas de filtre
 |---|---|---|---|---|
 | Partennis | Niveau min demandé + niveau du joueur | les 2 ≤ 30/2 | un seul ≤ 30/2 | les 2 > 30/2 |
 | Tennis-Contact | Classements cités dans le texte libre (ex. « 30/3 mini à 30/2 ») | tous ≤ 30/2 | mélange, ou aucun niveau cité | tous > 30/2 |
+| Tennissables | Colonne « Niveau min » (« Non classé » = OK), sinon classements cités dans le texte | ≤ 30/2 | aucun niveau, ou mélange dans le texte | > 30/2 |
+
+**Lieu Tennissables** (texte libre) : code postal, « Paris », arrondissement (« 19ème »), quelques lieux connus
+(Lenglen, Elisabeth, Faluère…), sinon la ville est géolocalisée via l'API Adresse du gouvernement.
+Lieu non reconnu → notif ⚠️ orange, à toi de trancher.
 
 Une annonce Tennis-Contact marquée « Partie réservée » est signalée par 🔒 dans la notif.
 
@@ -72,6 +78,7 @@ Une annonce Tennis-Contact marquée « Partie réservée » est signalée par �
 2. Chaque partie a un identifiant :
    - Partennis : empreinte `pseudo + date + lieu + description` (le site n'a pas d'ID).
    - Tennis-Contact : l'ID de la partie donné par le site.
+   - Tennissables : empreinte `profil + date + heure + lieu + description`.
 3. Un identifiant absent de `seen.json` déclenche une notif Discord, puis il est ajouté au fichier.
 4. Premier passage sur un nouveau site : les parties existantes sont enregistrées **sans notifier**.
 5. `seen.json` est recommité dans le repo après chaque run. Les parties passées depuis plus de 7 jours sont oubliées.
