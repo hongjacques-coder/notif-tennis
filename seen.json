@@ -752,6 +752,13 @@
    "pseudo": "Camrbnt",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:175ecfc2b8bf6532": {
+   "date_jeu": "24/12/2026 11:00",
+   "date_jeu_iso": "2026-12-24",
+   "lieu": "Noisy le grand / Bobigny",
+   "pseudo": "cengiz81",
+   "vu_le": "2026-10-31T16:02:41"
+  },
   "tennissables:1c0c0ae30009f7b4": {
    "date_jeu": "29/11/2027 12:00",
    "date_jeu_iso": "2027-11-29",
@@ -849,6 +856,13 @@
    "lieu": "Paris 20/12/13",
    "pseudo": "JulienD",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:93b8b625eed53839": {
+   "date_jeu": "04/11/2026 10:00",
+   "date_jeu_iso": "2026-11-04",
+   "lieu": "toulouse",
+   "pseudo": "emmaveber",
+   "vu_le": "2026-10-31T16:02:41"
   },
   "tennissables:94eea19beb8067bc": {
    "date_jeu": "26/11/2026 18:00",
