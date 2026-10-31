@@ -780,6 +780,13 @@
    "pseudo": "Mathieudbk",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:34dca65c73a2609f": {
+   "date_jeu": "02/12/2026 16:00",
+   "date_jeu_iso": "2026-12-02",
+   "lieu": "Rouen",
+   "pseudo": "Hammouch",
+   "vu_le": "2026-10-31T16:07:41"
+  },
   "tennissables:3718264bf2504a8f": {
    "date_jeu": "17/11/2026 18:00",
    "date_jeu_iso": "2026-11-17",
@@ -793,6 +800,13 @@
    "lieu": "",
    "pseudo": "avvdemarchis",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:4e845189a94fe019": {
+   "date_jeu": "04/01/2027 10:00",
+   "date_jeu_iso": "2027-01-04",
+   "lieu": "toulouse",
+   "pseudo": "emmaveber",
+   "vu_le": "2026-10-31T16:07:41"
   },
   "tennissables:5e059723b526d46f": {
    "date_jeu": "09/11/2026 20:00",
