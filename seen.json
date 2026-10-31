@@ -24,13 +24,6 @@
    "pseudo": "arnaudkaya75020",
    "vu_le": "2026-10-21T19:29:04"
   },
-  "partennis:079ca35aef4ded37": {
-   "date_jeu": "23 Octobre 2026",
-   "date_jeu_iso": "2026-10-23",
-   "lieu": "Poterne des Peupliers (13e)",
-   "pseudo": "polog",
-   "vu_le": "2026-10-21T19:29:04"
-  },
   "partennis:0b8b4da9991d806d": {
    "date_jeu": "29 Octobre 2026",
    "date_jeu_iso": "2026-10-29",
@@ -451,20 +444,6 @@
    "pseudo": "guips",
    "vu_le": "2026-10-22T05:51:17"
   },
-  "partennis:d7202ecf575a209b": {
-   "date_jeu": "23 Octobre 2026",
-   "date_jeu_iso": "2026-10-23",
-   "lieu": "Paris et environs",
-   "pseudo": "tennispro",
-   "vu_le": "2026-10-22T11:21:29"
-  },
-  "partennis:dfc03207a123dede": {
-   "date_jeu": "23 Octobre 2026",
-   "date_jeu_iso": "2026-10-23",
-   "lieu": "alain Mimoun",
-   "pseudo": "johnlamarck",
-   "vu_le": "2026-10-18T13:29:04"
-  },
   "partennis:e04041f6f25e5d6d": {
    "date_jeu": "31 Octobre 2026",
    "date_jeu_iso": "2026-10-31",
@@ -528,13 +507,6 @@
    "pseudo": "patrickh",
    "vu_le": "2026-10-10T17:56:29"
   },
-  "partennis:efa2c8e146914da3": {
-   "date_jeu": "23 Octobre 2026",
-   "date_jeu_iso": "2026-10-23",
-   "lieu": "Paris 15e - Jardin Atlantique",
-   "pseudo": "tristan302",
-   "vu_le": "2026-10-22T15:58:30"
-  },
   "partennis:f544363470e0177a": {
    "date_jeu": "26 Octobre 2026",
    "date_jeu_iso": "2026-10-26",
@@ -576,13 +548,6 @@
    "lieu": "Paris 12eme arrondissement (val de marne)",
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
-  },
-  "tennis-contact:37030": {
-   "date_jeu": "23/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-23",
-   "lieu": "Paris 20eme arrondissement (paris)",
-   "pseudo": "John-vincent Lamarck",
-   "vu_le": "2026-10-18T13:29:06"
   },
   "tennis-contact:37032": {
    "date_jeu": "25/10/2026 (Matinée)",
