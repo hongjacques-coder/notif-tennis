@@ -444,6 +444,13 @@
    "pseudo": "memo",
    "vu_le": "2026-10-30T09:32:49"
   },
+  "partennis:cc5bc7418624d26c": {
+   "date_jeu": "3 Novembre 2026",
+   "date_jeu_iso": "2026-11-03",
+   "lieu": "Suzanne lenglen Paris 15",
+   "pseudo": "alexxx",
+   "vu_le": "2026-10-31T16:52:42"
+  },
   "partennis:ce541fb90966b664": {
    "date_jeu": "25 Octobre 2026",
    "date_jeu_iso": "2026-10-25",
@@ -745,6 +752,13 @@
    "pseudo": "CharlyBL",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:0127dc39e59abc1e": {
+   "date_jeu": "04/11/2026 15:00",
+   "date_jeu_iso": "2026-11-04",
+   "lieu": "villejuif",
+   "pseudo": "stan",
+   "vu_le": "2026-10-31T16:52:45"
+  },
   "tennissables:0cc4aa8751bc44d5": {
    "date_jeu": "11/02/2027 20:00",
    "date_jeu_iso": "2027-02-11",
@@ -794,6 +808,13 @@
    "pseudo": "Hammouch",
    "vu_le": "2026-10-31T16:07:41"
   },
+  "tennissables:36cc9e55e49504c7": {
+   "date_jeu": "12/06/2027 18:00",
+   "date_jeu_iso": "2027-06-12",
+   "lieu": "lyon",
+   "pseudo": "NahNah",
+   "vu_le": "2026-10-31T16:52:47"
+  },
   "tennissables:3718264bf2504a8f": {
    "date_jeu": "17/11/2026 18:00",
    "date_jeu_iso": "2026-11-17",
@@ -814,6 +835,13 @@
    "lieu": "Paris idf",
    "pseudo": "Maud",
    "vu_le": "2026-10-31T16:17:42"
+  },
+  "tennissables:4823e6d782ea5292": {
+   "date_jeu": "10/06/2027 11:00",
+   "date_jeu_iso": "2027-06-10",
+   "lieu": "",
+   "pseudo": "LoriM",
+   "vu_le": "2026-10-31T16:52:47"
   },
   "tennissables:4e845189a94fe019": {
    "date_jeu": "04/01/2027 10:00",
@@ -1010,6 +1038,13 @@
    "lieu": "75015",
    "pseudo": "Radwan",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:ee099e3a4478f3cd": {
+   "date_jeu": "09/09/2027 10:00",
+   "date_jeu_iso": "2027-09-09",
+   "lieu": "toulouse",
+   "pseudo": "Elisa1331",
+   "vu_le": "2026-10-31T16:52:47"
   },
   "tennissables:f4005ee1074c901f": {
    "date_jeu": "18/11/2026 17:00",
