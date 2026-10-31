@@ -745,6 +745,13 @@
    "pseudo": "CharlyBL",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:0cc4aa8751bc44d5": {
+   "date_jeu": "11/02/2027 20:00",
+   "date_jeu_iso": "2027-02-11",
+   "lieu": "Angers",
+   "pseudo": "Thibault",
+   "vu_le": "2026-10-31T16:47:45"
+  },
   "tennissables:1098e35b38e9b15b": {
    "date_jeu": "21/11/2026 10:00",
    "date_jeu_iso": "2026-11-21",
@@ -878,6 +885,13 @@
    "pseudo": "JulienD",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:918107043deec25e": {
+   "date_jeu": "19/12/2026 14:00",
+   "date_jeu_iso": "2026-12-19",
+   "lieu": "paris",
+   "pseudo": "nan",
+   "vu_le": "2026-10-31T16:47:44"
+  },
   "tennissables:93b8b625eed53839": {
    "date_jeu": "04/11/2026 10:00",
    "date_jeu_iso": "2026-11-04",
@@ -920,6 +934,13 @@
    "pseudo": "Ostinatorigore",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:a96d03ce84baf09b": {
+   "date_jeu": "26/01/2027 10:00",
+   "date_jeu_iso": "2027-01-26",
+   "lieu": "Paris 17th",
+   "pseudo": "timeah",
+   "vu_le": "2026-10-31T16:47:45"
+  },
   "tennissables:aa111396c5a648b9": {
    "date_jeu": "25/11/2026 10:00",
    "date_jeu_iso": "2026-11-25",
@@ -934,12 +955,26 @@
    "pseudo": "Khalloud O",
    "vu_le": "2026-10-30T10:39:29"
   },
+  "tennissables:b4390893c5d74f6e": {
+   "date_jeu": "07/06/2027 11:00",
+   "date_jeu_iso": "2027-06-07",
+   "lieu": "Paris 20/12/13",
+   "pseudo": "JulienD",
+   "vu_le": "2026-10-31T16:47:47"
+  },
   "tennissables:d02dab8868304a1a": {
    "date_jeu": "23/11/2026 19:00",
    "date_jeu_iso": "2026-11-23",
    "lieu": "Alentour meyzieu",
    "pseudo": "Kiks6974",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:d23dea9f4dab661e": {
+   "date_jeu": "05/06/2027 15:00",
+   "date_jeu_iso": "2027-06-05",
+   "lieu": "Sousse",
+   "pseudo": "BEN7003230",
+   "vu_le": "2026-10-31T16:47:46"
   },
   "tennissables:d265ea0c1ffe4b2c": {
    "date_jeu": "05/11/2026 18:00",
@@ -954,6 +989,20 @@
    "lieu": "Lyon, villeurbanne",
    "pseudo": "yolota",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:d781f05507ca50ad": {
+   "date_jeu": "22/06/2027 10:00",
+   "date_jeu_iso": "2027-06-22",
+   "lieu": "Lille",
+   "pseudo": "Quentincrp",
+   "vu_le": "2026-10-31T16:47:49"
+  },
+  "tennissables:dc8cbf6c58e56146": {
+   "date_jeu": "11/06/2027 10:00",
+   "date_jeu_iso": "2027-06-11",
+   "lieu": "occitanie",
+   "pseudo": "cedrickrkt",
+   "vu_le": "2026-10-31T16:47:49"
   },
   "tennissables:e711df60542ca67c": {
    "date_jeu": "13/11/2026 16:00",
@@ -989,6 +1038,13 @@
    "lieu": "",
    "pseudo": "Sophie4125",
    "vu_le": "2026-10-30T10:39:29"
+  },
+  "tennissables:fdcb9dbdc4d94849": {
+   "date_jeu": "14/11/2026 19:00",
+   "date_jeu_iso": "2026-11-14",
+   "lieu": "Paris La Villette/ Max Roussié",
+   "pseudo": "KrisPSG",
+   "vu_le": "2026-10-31T16:47:44"
   },
   "tennissables:ff368b9c6e155dbc": {
    "date_jeu": "29/11/2026 14:00",
