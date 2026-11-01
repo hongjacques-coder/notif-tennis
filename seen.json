@@ -38,20 +38,6 @@
    "pseudo": "opuhi12814",
    "vu_le": "2026-10-23T17:09:07"
   },
-  "partennis:13a7e27a654b7c42": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Neuilly sur Seine - Court Intérieur green set",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-22T23:11:48"
-  },
-  "partennis:13e22dba9f2565df": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Tennis Cordelières 75013",
-   "pseudo": "isdeb",
-   "vu_le": "2026-10-21T10:10:37"
-  },
   "partennis:1449389b17549cd3": {
    "date_jeu": "31 Octobre 2026",
    "date_jeu_iso": "2026-10-31",
@@ -108,13 +94,6 @@
    "pseudo": "tonio26",
    "vu_le": "2026-10-27T12:04:38"
   },
-  "partennis:29ca3cb4fde7a2c8": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "77810 Thomery ( Fontainebleau )",
-   "pseudo": "ilya7",
-   "vu_le": "2026-10-21T22:39:36"
-  },
   "partennis:2a4ad9e055a7b400": {
    "date_jeu": "31 Décembre 3000",
    "date_jeu_iso": "3000-12-31",
@@ -156,13 +135,6 @@
    "lieu": "Neuilly sur Seine",
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-30T20:10:22"
-  },
-  "partennis:387aed1223edb214": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "La Faluère",
-   "pseudo": "dubonsong",
-   "vu_le": "2026-10-21T19:29:04"
   },
   "partennis:3c3c4ffddc49aa19": {
    "date_jeu": "31 Octobre 2026",
@@ -514,13 +486,6 @@
    "pseudo": "yoyocolmtennis",
    "vu_le": "2026-10-25T21:49:04"
   },
-  "partennis:d5bebbf8eaa3ad5e": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Marcel bec Meudon",
-   "pseudo": "guips",
-   "vu_le": "2026-10-22T05:51:17"
-  },
   "partennis:dbcec8a6628764bb": {
    "date_jeu": "4 Novembre 2026",
    "date_jeu_iso": "2026-11-04",
@@ -612,13 +577,6 @@
    "pseudo": "johnlamarck",
    "vu_le": "2026-10-22T19:57:38"
   },
-  "partennis:f88013ffa621a84b": {
-   "date_jeu": "24 Octobre 2026",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Tennis Niox",
-   "pseudo": "jubi",
-   "vu_le": "2026-10-24T11:57:04"
-  },
   "partennis:fcd775cfcfbb873b": {
    "date_jeu": "25 Octobre 2026",
    "date_jeu_iso": "2026-10-25",
@@ -661,20 +619,6 @@
    "pseudo": "Maxime Taupiac",
    "vu_le": "2026-10-21T15:16:50"
   },
-  "tennis-contact:37035": {
-   "date_jeu": "24/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Thomery (seine et marne)",
-   "pseudo": "Ilya Fogna",
-   "vu_le": "2026-10-21T22:39:39"
-  },
-  "tennis-contact:37036": {
-   "date_jeu": "24/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Paris 13eme arrondissement (paris)",
-   "pseudo": "Gilles D.",
-   "vu_le": "2026-10-22T19:57:41"
-  },
   "tennis-contact:37037": {
    "date_jeu": "26/10/2026 (Apres-midi)",
    "date_jeu_iso": "2026-10-26",
@@ -688,13 +632,6 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Christophe Duh.",
    "vu_le": "2026-10-23T17:09:09"
-  },
-  "tennis-contact:37039": {
-   "date_jeu": "24/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-24",
-   "lieu": "Neuilly sur seine (hauts de seine)",
-   "pseudo": "Bena Malou",
-   "vu_le": "2026-10-23T23:23:51"
   },
   "tennis-contact:37040": {
    "date_jeu": "28/10/2026 (Heure du déjeuner)",
