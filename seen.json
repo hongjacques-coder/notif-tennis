@@ -10,13 +10,6 @@
    "pseudo": "alexxx",
    "vu_le": "2026-10-28T10:47:29"
   },
-  "partennis:03c04b90e28fa492": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Angers ou alentours",
-   "pseudo": "leol7",
-   "vu_le": "2026-10-25T12:02:02"
-  },
   "partennis:04f6bb35ec09ed7e": {
    "date_jeu": "26 Octobre 2026",
    "date_jeu_iso": "2026-10-26",
@@ -30,13 +23,6 @@
    "lieu": "TC Mouans-Sartoux (à côté du Golf St Donat)",
    "pseudo": "manuela",
    "vu_le": "2026-10-27T10:49:33"
-  },
-  "partennis:0d92f173b5787276": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "stade alain mimoun",
-   "pseudo": "opuhi12814",
-   "vu_le": "2026-10-23T17:09:07"
   },
   "partennis:1449389b17549cd3": {
    "date_jeu": "31 Octobre 2026",
@@ -79,13 +65,6 @@
    "lieu": "paris 13",
    "pseudo": "comferrer",
    "vu_le": "2026-10-30T13:34:36"
-  },
-  "partennis:234e4e2cfbd2c6bd": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Parc du Tremblay",
-   "pseudo": "bertrand94",
-   "vu_le": "2026-10-22T23:11:49"
   },
   "partennis:23ec9abadb831634": {
    "date_jeu": "29 Octobre 2026",
@@ -213,26 +192,12 @@
    "pseudo": "tonio26",
    "vu_le": "2026-10-31T12:52:09"
   },
-  "partennis:540a97e9d85871ac": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Tennis Aurelles de Paladines (Neuilly)",
-   "pseudo": "thomas92",
-   "vu_le": "2026-10-23T17:09:07"
-  },
   "partennis:5f6b9e4989ab82c7": {
    "date_jeu": "16 Décembre 2026",
    "date_jeu_iso": "2026-12-16",
    "lieu": "Paris",
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:68094a772dc91a68": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Neuilly sur Seine",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-22T23:11:48"
   },
   "partennis:686fad7425dca003": {
    "date_jeu": "26 Octobre 2026",
@@ -346,13 +311,6 @@
    "pseudo": "alexandrelef",
    "vu_le": "2026-10-25T19:11:14"
   },
-  "partennis:a50eb271e7bc2a9e": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Tennis Aurelles de Paladines (Neuilly)",
-   "pseudo": "thomas92",
-   "vu_le": "2026-10-22T15:58:30"
-  },
   "partennis:a7b2ad833057fcb3": {
    "date_jeu": "26 Octobre 2026",
    "date_jeu_iso": "2026-10-26",
@@ -409,13 +367,6 @@
    "pseudo": "swann7",
    "vu_le": "2026-10-26T09:52:25"
   },
-  "partennis:bb301105a2186b74": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Neuilly boulevard Koenig",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-24T18:23:20"
-  },
   "partennis:bd991bd8020fc2ff": {
    "date_jeu": "2 Novembre 2026",
    "date_jeu_iso": "2026-11-02",
@@ -437,13 +388,6 @@
    "pseudo": "charlietennis",
    "vu_le": "2026-10-26T09:52:24"
   },
-  "partennis:c1df58144197ef23": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Palaiseau",
-   "pseudo": "mohsen83",
-   "vu_le": "2026-10-24T21:04:54"
-  },
   "partennis:c220ff61373dd1d4": {
    "date_jeu": "29 Octobre 2026",
    "date_jeu_iso": "2026-10-29",
@@ -457,13 +401,6 @@
    "lieu": "TENNIS Philippe Auguste ( Paris 11eme)",
    "pseudo": "ludo1276",
    "vu_le": "2026-10-30T16:55:12"
-  },
-  "partennis:c81b311177313571": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "24 rue Paul Barruel, 75015 Paris",
-   "pseudo": "alexandrec",
-   "vu_le": "2026-10-22T19:57:39"
   },
   "partennis:cb161443fd7c8396": {
    "date_jeu": "31 Décembre 2026",
@@ -492,13 +429,6 @@
    "lieu": "Suzanne lenglen Paris 15",
    "pseudo": "alexxx",
    "vu_le": "2026-10-31T16:52:42"
-  },
-  "partennis:ce541fb90966b664": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Neuilly",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-25T12:02:02"
   },
   "partennis:d1ccf9cd7e1cd3c7": {
    "date_jeu": "28 Octobre 2026",
@@ -612,13 +542,6 @@
    "pseudo": "beskides",
    "vu_le": "2026-11-01T18:05:32"
   },
-  "partennis:fcd775cfcfbb873b": {
-   "date_jeu": "25 Octobre 2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Parc du Tremblay",
-   "pseudo": "bertrand94",
-   "vu_le": "2026-10-24T18:23:20"
-  },
   "partennis:fe3b9bd8d5b77f0d": {
    "date_jeu": "6 Novembre 2026",
    "date_jeu_iso": "2026-11-06",
@@ -647,33 +570,12 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37032": {
-   "date_jeu": "25/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Paris 16eme arrondissement (paris)",
-   "pseudo": "Vera C",
-   "vu_le": "2026-10-19T07:26:33"
-  },
-  "tennis-contact:37034": {
-   "date_jeu": "25/10/2026",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Metz (moselle)",
-   "pseudo": "Maxime Taupiac",
-   "vu_le": "2026-10-21T15:16:50"
-  },
   "tennis-contact:37037": {
    "date_jeu": "26/10/2026 (Apres-midi)",
    "date_jeu_iso": "2026-10-26",
    "lieu": "Paris 20eme arrondissement (paris)",
    "pseudo": "John-vincent Lamarck",
    "vu_le": "2026-10-22T19:57:41"
-  },
-  "tennis-contact:37038": {
-   "date_jeu": "25/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-25",
-   "lieu": "Paris 12eme arrondissement (paris)",
-   "pseudo": "Christophe Duh.",
-   "vu_le": "2026-10-23T17:09:09"
   },
   "tennis-contact:37040": {
    "date_jeu": "28/10/2026 (Heure du déjeuner)",
