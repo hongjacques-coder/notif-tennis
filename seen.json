@@ -10,13 +10,6 @@
    "pseudo": "alexxx",
    "vu_le": "2026-10-28T10:47:29"
   },
-  "partennis:04f6bb35ec09ed7e": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Paris 20E",
-   "pseudo": "arnaudkaya75020",
-   "vu_le": "2026-10-21T19:29:04"
-  },
   "partennis:0b8b4da9991d806d": {
    "date_jeu": "29 Octobre 2026",
    "date_jeu_iso": "2026-10-29",
@@ -30,13 +23,6 @@
    "lieu": "Pailleron 19ème",
    "pseudo": "RUSSAP",
    "vu_le": "2026-10-28T14:07:57"
-  },
-  "partennis:15572efb2a083720": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Forest Hill Aquaboulevard",
-   "pseudo": "mickaeltennis",
-   "vu_le": "2026-10-25T19:11:13"
   },
   "partennis:1572534053aa2b2a": {
    "date_jeu": "1 Novembre 2026",
@@ -206,13 +192,6 @@
    "pseudo": "clement18",
    "vu_le": "2026-11-02T08:47:17"
   },
-  "partennis:686fad7425dca003": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Moureau Baudricourt",
-   "pseudo": "tennisplayer",
-   "vu_le": "2026-10-24T11:57:04"
-  },
   "partennis:69b6dbd4fb42f1b1": {
    "date_jeu": "27 Octobre 2026",
    "date_jeu_iso": "2026-10-27",
@@ -269,13 +248,6 @@
    "pseudo": "ramitennis",
    "vu_le": "2026-10-25T16:22:25"
   },
-  "partennis:8367e1e8146c88de": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "75015 Suzanne Lenglen",
-   "pseudo": "isdeb",
-   "vu_le": "2026-10-24T15:44:35"
-  },
   "partennis:83b2c9665c931de9": {
    "date_jeu": "30 Octobre 2026",
    "date_jeu_iso": "2026-10-30",
@@ -289,13 +261,6 @@
    "lieu": "Sud de Paris",
    "pseudo": "yenbui",
    "vu_le": "2026-10-29T05:49:56"
-  },
-  "partennis:8a4e842211c80533": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Autour de Brunoy",
-   "pseudo": "matjuve",
-   "vu_le": "2026-10-26T19:48:14"
   },
   "partennis:8c060f85e0045c39": {
    "date_jeu": "1 Novembre 2026",
@@ -317,13 +282,6 @@
    "lieu": "Suzanne Lenglen, 75015",
    "pseudo": "alexandrelef",
    "vu_le": "2026-10-25T19:11:14"
-  },
-  "partennis:a7b2ad833057fcb3": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "75009",
-   "pseudo": "doriannourj",
-   "vu_le": "2026-10-26T15:22:47"
   },
   "partennis:a7e8859aaeceeb4a": {
    "date_jeu": "2 Novembre 2026",
@@ -535,13 +493,6 @@
    "pseudo": "charlus",
    "vu_le": "2026-10-27T15:10:14"
   },
-  "partennis:eb2b799f6a72c704": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Suzanne Lenglen",
-   "pseudo": "alexxx",
-   "vu_le": "2026-10-24T06:58:02"
-  },
   "partennis:eb537409754c8202": {
    "date_jeu": "29 Octobre 2026",
    "date_jeu_iso": "2026-10-29",
@@ -555,13 +506,6 @@
    "lieu": "Clubs Forest-Hill : LA DEFENSE à Nanterre - LA MARCHE à Marnes la Coquette - Aquaboulevard à Paris 15",
    "pseudo": "patrickh",
    "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:f544363470e0177a": {
-   "date_jeu": "26 Octobre 2026",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "alain Mimoun",
-   "pseudo": "johnlamarck",
-   "vu_le": "2026-10-22T19:57:38"
   },
   "partennis:f5b4678dd3d333c0": {
    "date_jeu": "3 Novembre 2026",
@@ -605,13 +549,6 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37037": {
-   "date_jeu": "26/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Paris 20eme arrondissement (paris)",
-   "pseudo": "John-vincent Lamarck",
-   "vu_le": "2026-10-22T19:57:41"
-  },
   "tennis-contact:37040": {
    "date_jeu": "28/10/2026 (Heure du déjeuner)",
    "date_jeu_iso": "2026-10-28",
@@ -625,13 +562,6 @@
    "lieu": "St jean de vedas (hérault)",
    "pseudo": "Phil Roland",
    "vu_le": "2026-10-24T18:23:21"
-  },
-  "tennis-contact:37043": {
-   "date_jeu": "26/10/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-10-26",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "Alain Lb",
-   "vu_le": "2026-10-25T12:02:06"
   },
   "tennis-contact:37044": {
    "date_jeu": "29/10/2026 (Matinée)",
