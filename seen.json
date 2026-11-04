@@ -80,6 +80,13 @@
    "pseudo": "philipjs",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:2c10022857aee605": {
+   "date_jeu": "6 Novembre 2026",
+   "date_jeu_iso": "2026-11-06",
+   "lieu": "houlgate",
+   "pseudo": "icare75",
+   "vu_le": "2026-11-04T15:14:00"
+  },
   "partennis:2defa243152d0553": {
    "date_jeu": "28 Octobre 2026",
    "date_jeu_iso": "2026-10-28",
@@ -191,6 +198,13 @@
    "lieu": "172 rue Championnet 75018 Paris",
    "pseudo": "clement18",
    "vu_le": "2026-11-02T08:47:17"
+  },
+  "partennis:62e76f4b1bbaab5b": {
+   "date_jeu": "6 Novembre 2026",
+   "date_jeu_iso": "2026-11-06",
+   "lieu": "houlgate",
+   "pseudo": "icare75",
+   "vu_le": "2026-11-04T15:14:00"
   },
   "partennis:6c6b04aedcac1cb7": {
    "date_jeu": "8 Novembre 2026",
@@ -681,6 +695,27 @@
    "lieu": "Paris 18eme arrondissement (paris)",
    "pseudo": "Rami Zouaoui",
    "vu_le": "2026-11-03T19:46:17"
+  },
+  "tennis-contact:37064": {
+   "date_jeu": "06/11/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-11-06",
+   "lieu": "Houlgate (calvados)",
+   "pseudo": "Hicham A",
+   "vu_le": "2026-11-04T15:14:01"
+  },
+  "tennis-contact:37065": {
+   "date_jeu": "07/11/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-11-07",
+   "lieu": "Cabourg (calvados)",
+   "pseudo": "Hicham A",
+   "vu_le": "2026-11-04T15:14:01"
+  },
+  "tennis-contact:37066": {
+   "date_jeu": "06/11/2026 (Début de Soirée)",
+   "date_jeu_iso": "2026-11-06",
+   "lieu": "Houlgate (calvados)",
+   "pseudo": "Hicham A",
+   "vu_le": "2026-11-04T15:14:01"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
