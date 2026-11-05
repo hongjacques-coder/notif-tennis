@@ -94,13 +94,6 @@
    "pseudo": "icare75",
    "vu_le": "2026-11-04T15:14:00"
   },
-  "partennis:2defa243152d0553": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Elisabeth (7 Av. Paul Appell ou 75014 Paris)",
-   "pseudo": "quentin24",
-   "vu_le": "2026-10-27T19:25:59"
-  },
   "partennis:2e1d2062fb68a86e": {
    "date_jeu": "29 Octobre 2026",
    "date_jeu_iso": "2026-10-29",
@@ -255,13 +248,6 @@
    "pseudo": "vautie",
    "vu_le": "2026-11-03T12:40:40"
   },
-  "partennis:8045b0bb85d47362": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Suzanne Lenglen Paris 15",
-   "pseudo": "alexxx",
-   "vu_le": "2026-10-27T12:14:39"
-  },
   "partennis:817b9cafa8e4d1c5": {
    "date_jeu": "4 Novembre 2026",
    "date_jeu_iso": "2026-11-04",
@@ -297,13 +283,6 @@
    "pseudo": "sebten",
    "vu_le": "2026-10-31T17:22:46"
   },
-  "partennis:94650a46311e937c": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Stade Charles Moureu (Paris 13)",
-   "pseudo": "junichi",
-   "vu_le": "2026-10-27T07:54:27"
-  },
   "partennis:9aa1be879b40dd57": {
    "date_jeu": "5 Novembre 2026",
    "date_jeu_iso": "2026-11-05",
@@ -324,13 +303,6 @@
    "lieu": "Parc du Tremblay",
    "pseudo": "bertrand94",
    "vu_le": "2026-10-28T22:03:51"
-  },
-  "partennis:af2a5bf13d8dd3f2": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Sète - Tennis Club du Barrou",
-   "pseudo": "fredlo",
-   "vu_le": "2026-10-27T19:40:56"
   },
   "partennis:b0de30ab6a9dcb84": {
    "date_jeu": "31 Octobre 2026",
@@ -437,20 +409,6 @@
    "pseudo": "alexxx",
    "vu_le": "2026-10-31T16:52:42"
   },
-  "partennis:d1ccf9cd7e1cd3c7": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Tennis Elisabeth (porte d'Orléans)",
-   "pseudo": "tartineto29",
-   "vu_le": "2026-10-27T17:05:21"
-  },
-  "partennis:d3c687a985f5b57d": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "WOTC Wattignies Olympique Tennis Club",
-   "pseudo": "yoyocolmtennis",
-   "vu_le": "2026-10-25T21:49:04"
-  },
   "partennis:dbcec8a6628764bb": {
    "date_jeu": "4 Novembre 2026",
    "date_jeu_iso": "2026-11-04",
@@ -471,13 +429,6 @@
    "lieu": "alain mimoun",
    "pseudo": "johnlamarck",
    "vu_le": "2026-10-29T17:01:13"
-  },
-  "partennis:e24b4872f6913830": {
-   "date_jeu": "28 Octobre 2026",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Pont saint esprit",
-   "pseudo": "aera",
-   "vu_le": "2026-10-26T18:57:52"
   },
   "partennis:e3308057c8f6c36d": {
    "date_jeu": "30 Octobre 2026",
@@ -570,13 +521,6 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37040": {
-   "date_jeu": "28/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "Gilles D.",
-   "vu_le": "2026-10-24T11:57:06"
-  },
   "tennis-contact:37042": {
    "date_jeu": "30/10/2026 (Matinée)",
    "date_jeu_iso": "2026-10-30",
@@ -604,13 +548,6 @@
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "Antoine D.p.m",
    "vu_le": "2026-10-27T12:04:40"
-  },
-  "tennis-contact:37048": {
-   "date_jeu": "28/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-28",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "Quentin De waele",
-   "vu_le": "2026-10-27T19:26:01"
   },
   "tennis-contact:37050": {
    "date_jeu": "30/11/2026 (Début de Soirée)",
