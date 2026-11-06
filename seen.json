@@ -458,6 +458,13 @@
    "pseudo": "patrickh",
    "vu_le": "2026-10-10T17:56:29"
   },
+  "partennis:f1efa305d049a62a": {
+   "date_jeu": "7 Novembre 2026",
+   "date_jeu_iso": "2026-11-07",
+   "lieu": "Moreau Baudricourt",
+   "pseudo": "tennisplayer",
+   "vu_le": "2026-11-06T19:05:08"
+  },
   "partennis:f5b4678dd3d333c0": {
    "date_jeu": "3 Novembre 2026",
    "date_jeu_iso": "2026-11-03",
@@ -646,6 +653,13 @@
    "lieu": "Paris 12eme arrondissement (paris)",
    "pseudo": "Christophe Duh.",
    "vu_le": "2026-11-06T11:09:21"
+  },
+  "tennis-contact:37070": {
+   "date_jeu": "07/11/2026 (Début de Soirée)",
+   "date_jeu_iso": "2026-11-07",
+   "lieu": "Paris 13eme arrondissement (paris)",
+   "pseudo": "Player75 Tennis",
+   "vu_le": "2026-11-06T19:05:10"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
