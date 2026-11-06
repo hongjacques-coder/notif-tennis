@@ -3,26 +3,12 @@
   "partennis:incomplet": "2026-11-05"
  },
  "parties": {
-  "partennis:0086118b5bec9b85": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Suzanne Lenglen Paris 15",
-   "pseudo": "alexxx",
-   "vu_le": "2026-10-28T10:47:29"
-  },
   "partennis:06a53e0e9ecec5e8": {
    "date_jeu": "9 Novembre 2026",
    "date_jeu_iso": "2026-11-09",
    "lieu": "Court couvert Paris 12e (Carnot ou Alain Mimoun)",
    "pseudo": "harold92200",
    "vu_le": "2026-11-03T20:41:19"
-  },
-  "partennis:0b8b4da9991d806d": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "TC Mouans-Sartoux (à côté du Golf St Donat)",
-   "pseudo": "manuela",
-   "vu_le": "2026-10-27T10:49:33"
   },
   "partennis:124823605861b6b8": {
    "date_jeu": "5 Novembre 2026",
@@ -45,13 +31,6 @@
    "pseudo": "davidr",
    "vu_le": "2026-10-30T23:40:53"
   },
-  "partennis:19933f825801581a": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Brou sur chantereine",
-   "pseudo": "pasqual",
-   "vu_le": "2026-10-29T10:35:31"
-  },
   "partennis:1be2eda1fe2b9001": {
    "date_jeu": "30 Octobre 2026",
    "date_jeu_iso": "2026-10-30",
@@ -65,13 +44,6 @@
    "lieu": "parc du tremblay",
    "pseudo": "eric77",
    "vu_le": "2026-11-05T18:32:22"
-  },
-  "partennis:23ec9abadb831634": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Centre sportif Elisabeth 07 avenue Paul Appell, Paris 14e",
-   "pseudo": "tonio26",
-   "vu_le": "2026-10-27T12:04:38"
   },
   "partennis:24f311df18bf15ed": {
    "date_jeu": "4 Novembre 2026",
@@ -100,13 +72,6 @@
    "lieu": "houlgate",
    "pseudo": "icare75",
    "vu_le": "2026-11-04T15:14:00"
-  },
-  "partennis:2e1d2062fb68a86e": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Rigoulot",
-   "pseudo": "francisd",
-   "vu_le": "2026-10-29T15:01:09"
   },
   "partennis:2ea2a9e3782600b4": {
    "date_jeu": "2 Novembre 2026",
@@ -150,13 +115,6 @@
    "pseudo": "enjoytennis",
    "vu_le": "2026-10-31T11:22:03"
   },
-  "partennis:418483d119bb4b25": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Paris Porte Dauphine",
-   "pseudo": "sebastienalbert",
-   "vu_le": "2026-10-24T15:44:36"
-  },
   "partennis:433c11d4c633b700": {
    "date_jeu": "2 Novembre 2026",
    "date_jeu_iso": "2026-11-02",
@@ -177,13 +135,6 @@
    "lieu": "Centre de tennis Élisabeth",
    "pseudo": "nayrb",
    "vu_le": "2026-11-04T14:43:57"
-  },
-  "partennis:4fff2dd96495d48e": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "24 Paul Barruel, 75015 Paris",
-   "pseudo": "alexandrec",
-   "vu_le": "2026-10-26T09:52:25"
   },
   "partennis:5341d250f929ac67": {
    "date_jeu": "31 Octobre 2026",
@@ -311,13 +262,6 @@
    "pseudo": "romainc",
    "vu_le": "2026-10-30T13:24:35"
   },
-  "partennis:aa65dd1b44bc25b9": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Parc du Tremblay",
-   "pseudo": "bertrand94",
-   "vu_le": "2026-10-28T22:03:51"
-  },
   "partennis:b0de30ab6a9dcb84": {
    "date_jeu": "31 Octobre 2026",
    "date_jeu_iso": "2026-10-31",
@@ -380,13 +324,6 @@
    "lieu": "Le pecq",
    "pseudo": "principe",
    "vu_le": "2026-10-26T14:12:44"
-  },
-  "partennis:c220ff61373dd1d4": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "jules ladoumegues",
-   "pseudo": "rachos78",
-   "vu_le": "2026-10-25T12:02:04"
   },
   "partennis:c2b195a40759a905": {
    "date_jeu": "31 Octobre 2026",
@@ -486,13 +423,6 @@
    "pseudo": "thomas92",
    "vu_le": "2026-11-03T16:01:07"
   },
-  "partennis:eb537409754c8202": {
-   "date_jeu": "29 Octobre 2026",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Paris environs",
-   "pseudo": "tennispro",
-   "vu_le": "2026-10-28T16:43:31"
-  },
   "partennis:ebc8234402681f8c": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -555,27 +485,6 @@
    "lieu": "St jean de vedas (hérault)",
    "pseudo": "Phil Roland",
    "vu_le": "2026-10-24T18:23:21"
-  },
-  "tennis-contact:37044": {
-   "date_jeu": "29/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Paris 19eme arrondissement (paris)",
-   "pseudo": "Ra Ad",
-   "vu_le": "2026-10-25T12:02:07"
-  },
-  "tennis-contact:37046": {
-   "date_jeu": "29/10/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Paris 10eme arrondissement (paris)",
-   "pseudo": "Emmanuelle Vandevoorde",
-   "vu_le": "2026-10-26T19:07:54"
-  },
-  "tennis-contact:37047": {
-   "date_jeu": "29/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-29",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "Antoine D.p.m",
-   "vu_le": "2026-10-27T12:04:40"
   },
   "tennis-contact:37050": {
    "date_jeu": "30/11/2026 (Début de Soirée)",
