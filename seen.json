@@ -31,13 +31,6 @@
    "pseudo": "davidr",
    "vu_le": "2026-10-30T23:40:53"
   },
-  "partennis:1be2eda1fe2b9001": {
-   "date_jeu": "30 Octobre 2026",
-   "date_jeu_iso": "2026-10-30",
-   "lieu": "paris 13",
-   "pseudo": "comferrer",
-   "vu_le": "2026-10-30T13:34:36"
-  },
   "partennis:1daf40ca4921411d": {
    "date_jeu": "7 Novembre 2026",
    "date_jeu_iso": "2026-11-07",
@@ -241,13 +234,6 @@
    "pseudo": "oliverv",
    "vu_le": "2026-11-03T12:10:36"
   },
-  "partennis:83b2c9665c931de9": {
-   "date_jeu": "30 Octobre 2026",
-   "date_jeu_iso": "2026-10-30",
-   "lieu": "Niox 12 quai Saint-Exupéry Paris 16eme",
-   "pseudo": "tonio26",
-   "vu_le": "2026-10-28T17:58:34"
-  },
   "partennis:88030469d563a752": {
    "date_jeu": "31 Mars 2027",
    "date_jeu_iso": "2027-03-31",
@@ -416,13 +402,6 @@
    "pseudo": "johnlamarck",
    "vu_le": "2026-10-29T17:01:13"
   },
-  "partennis:e3308057c8f6c36d": {
-   "date_jeu": "30 Octobre 2026",
-   "date_jeu_iso": "2026-10-30",
-   "lieu": "Max Rousié (17e/18e)",
-   "pseudo": "vautie",
-   "vu_le": "2026-10-27T09:49:32"
-  },
   "partennis:e776b1650b773f43": {
    "date_jeu": "31 Octobre 2026",
    "date_jeu_iso": "2026-10-31",
@@ -521,26 +500,12 @@
    "pseudo": "Mehmet D",
    "vu_le": "2026-10-10T18:28:20"
   },
-  "tennis-contact:37042": {
-   "date_jeu": "30/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-30",
-   "lieu": "St jean de vedas (hérault)",
-   "pseudo": "Phil Roland",
-   "vu_le": "2026-10-24T18:23:21"
-  },
   "tennis-contact:37050": {
    "date_jeu": "30/11/2026 (Début de Soirée)",
    "date_jeu_iso": "2026-11-30",
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "Pierre Durant",
    "vu_le": "2026-10-28T16:43:34"
-  },
-  "tennis-contact:37051": {
-   "date_jeu": "30/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-30",
-   "lieu": "Paris 16eme arrondissement (paris)",
-   "pseudo": "Antoine D.p.m",
-   "vu_le": "2026-10-28T17:53:35"
   },
   "tennis-contact:37053": {
    "date_jeu": "31/10/2026 (Début de Soirée)",
