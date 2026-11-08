@@ -24,13 +24,6 @@
    "pseudo": "romainc",
    "vu_le": "2026-11-07T09:57:02"
   },
-  "partennis:1449389b17549cd3": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Pailleron 19ème",
-   "pseudo": "RUSSAP",
-   "vu_le": "2026-10-28T14:07:57"
-  },
   "partennis:1572534053aa2b2a": {
    "date_jeu": "1 Novembre 2026",
    "date_jeu_iso": "2026-11-01",
@@ -115,20 +108,6 @@
    "pseudo": "idemooo",
    "vu_le": "2026-10-31T17:32:45"
   },
-  "partennis:37857881d20124f3": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Neuilly sur Seine",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-30T20:10:22"
-  },
-  "partennis:3c3c4ffddc49aa19": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Neuilly sur Seine Metro Pont de Neuilly",
-   "pseudo": "enjoytennis",
-   "vu_le": "2026-10-31T11:22:03"
-  },
   "partennis:40c120ed41244b6f": {
    "date_jeu": "8 Novembre 2026",
    "date_jeu_iso": "2026-11-08",
@@ -156,13 +135,6 @@
    "lieu": "Centre de tennis Élisabeth",
    "pseudo": "nayrb",
    "vu_le": "2026-11-04T14:43:57"
-  },
-  "partennis:5341d250f929ac67": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Paris 15eme arrondissement (paris) Paul Barruel Je propose de jouer lundi à 18H au TENNIS Paul Barruel 24 rue Paul Barruel . Si intéressé laissez moi un message au 0620895683",
-   "pseudo": "tonio26",
-   "vu_le": "2026-10-31T12:52:09"
   },
   "partennis:5f6b9e4989ab82c7": {
    "date_jeu": "16 Décembre 2026",
@@ -219,13 +191,6 @@
    "lieu": "maisons alfort",
    "pseudo": "krene",
    "vu_le": "2026-11-01T19:25:58"
-  },
-  "partennis:765a89f70096319f": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Stade Suzanne Lenglen 4 All. de la Bertelotte, 75015 Paris",
-   "pseudo": "tonio26",
-   "vu_le": "2026-10-31T08:51:34"
   },
   "partennis:77aba5f374c9f969": {
    "date_jeu": "7 Novembre 2026",
@@ -297,13 +262,6 @@
    "pseudo": "comferrer",
    "vu_le": "2026-11-07T12:37:12"
   },
-  "partennis:b0de30ab6a9dcb84": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Stade Suzanne Lenglen 4 All. de la Bertelotte, 75015 Paris  demain à 9H sur le court 4 au stade Suzanne Lenglen .",
-   "pseudo": "tonio26",
-   "vu_le": "2026-10-30T15:44:44"
-  },
   "partennis:b16fac7a86df2496": {
    "date_jeu": "1 Novembre 2026",
    "date_jeu_iso": "2026-11-01",
@@ -367,26 +325,12 @@
    "pseudo": "principe",
    "vu_le": "2026-10-26T14:12:44"
   },
-  "partennis:c2b195a40759a905": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "TENNIS Philippe Auguste ( Paris 11eme)",
-   "pseudo": "ludo1276",
-   "vu_le": "2026-10-30T16:55:12"
-  },
   "partennis:cb161443fd7c8396": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
    "lieu": "Dordives",
    "pseudo": "sly20",
    "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:cb31edcea9969073": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Anzin 59",
-   "pseudo": "memo",
-   "vu_le": "2026-10-30T09:32:49"
   },
   "partennis:cb32b4d446ae5e69": {
    "date_jeu": "2 Novembre 2026",
@@ -443,27 +387,6 @@
    "lieu": "Parc du Tremblay",
    "pseudo": "bertrand94",
    "vu_le": "2026-10-31T11:42:06"
-  },
-  "partennis:e04041f6f25e5d6d": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "alain mimoun",
-   "pseudo": "johnlamarck",
-   "vu_le": "2026-10-29T17:01:13"
-  },
-  "partennis:e776b1650b773f43": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Porte Dauphine - Stade Montherlant",
-   "pseudo": "sebastienalbert",
-   "vu_le": "2026-10-29T06:04:57"
-  },
-  "partennis:e7a02d513e39ee5a": {
-   "date_jeu": "31 Octobre 2026",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Paris et environs",
-   "pseudo": "tennispro",
-   "vu_le": "2026-10-30T15:14:41"
   },
   "partennis:e7ce043215b81b1f": {
    "date_jeu": "3 Novembre 2026",
@@ -563,33 +486,12 @@
    "pseudo": "Pierre Durant",
    "vu_le": "2026-10-28T16:43:34"
   },
-  "tennis-contact:37053": {
-   "date_jeu": "31/10/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Paris 20eme arrondissement (paris)",
-   "pseudo": "John-vincent Lamarck",
-   "vu_le": "2026-10-29T16:56:16"
-  },
-  "tennis-contact:37054": {
-   "date_jeu": "31/10/2026 (Matinée)",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "Antoine D.p.m",
-   "vu_le": "2026-10-30T15:34:42"
-  },
   "tennis-contact:37055": {
    "date_jeu": "01/11/2026 (Apres-midi)",
    "date_jeu_iso": "2026-11-01",
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "David R",
    "vu_le": "2026-10-30T23:45:54"
-  },
-  "tennis-contact:37056": {
-   "date_jeu": "31/10/2026 (Heure du déjeuner)",
-   "date_jeu_iso": "2026-10-31",
-   "lieu": "Paris 15eme arrondissement (paris)",
-   "pseudo": "Antoine D.p.m",
-   "vu_le": "2026-10-31T08:46:33"
   },
   "tennis-contact:37057": {
    "date_jeu": "02/11/2026 (Début de Soirée)",
