@@ -24,13 +24,6 @@
    "pseudo": "romainc",
    "vu_le": "2026-11-07T09:57:02"
   },
-  "partennis:1572534053aa2b2a": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "17h Elisabeth",
-   "pseudo": "davidr",
-   "vu_le": "2026-10-30T23:40:53"
-  },
   "partennis:1daf40ca4921411d": {
    "date_jeu": "7 Novembre 2026",
    "date_jeu_iso": "2026-11-07",
@@ -100,13 +93,6 @@
    "lieu": "Max Rousié",
    "pseudo": "arny",
    "vu_le": "2026-11-01T09:49:50"
-  },
-  "partennis:36bc6b92ba97bb17": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Marcel bec meudon",
-   "pseudo": "idemooo",
-   "vu_le": "2026-10-31T17:32:45"
   },
   "partennis:40c120ed41244b6f": {
    "date_jeu": "8 Novembre 2026",
@@ -185,13 +171,6 @@
    "pseudo": "trydrogba",
    "vu_le": "2026-11-05T17:52:19"
   },
-  "partennis:727643c166365db8": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Toulouse",
-   "pseudo": "slimaned",
-   "vu_le": "2026-10-31T19:52:51"
-  },
   "partennis:72c671f032d3a158": {
    "date_jeu": "4 Novembre 2026",
    "date_jeu_iso": "2026-11-04",
@@ -241,13 +220,6 @@
    "pseudo": "yenbui",
    "vu_le": "2026-10-29T05:49:56"
   },
-  "partennis:8c060f85e0045c39": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Autour de Plaisir (78)",
-   "pseudo": "sebten",
-   "vu_le": "2026-10-31T17:22:46"
-  },
   "partennis:9aa1be879b40dd57": {
    "date_jeu": "5 Novembre 2026",
    "date_jeu_iso": "2026-11-05",
@@ -275,13 +247,6 @@
    "lieu": "13e",
    "pseudo": "comferrer",
    "vu_le": "2026-11-07T12:37:12"
-  },
-  "partennis:b16fac7a86df2496": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Saint arnoult en Yvelines",
-   "pseudo": "yassinebml",
-   "vu_le": "2026-10-31T19:07:50"
   },
   "partennis:b272878c8741e350": {
    "date_jeu": "8 Novembre 2026",
@@ -332,13 +297,6 @@
    "pseudo": "elytennis",
    "vu_le": "2026-11-06T10:54:18"
   },
-  "partennis:bf56f09366324c0c": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Le pecq",
-   "pseudo": "principe",
-   "vu_le": "2026-10-26T14:12:44"
-  },
   "partennis:cb161443fd7c8396": {
    "date_jeu": "31 Décembre 2026",
    "date_jeu_iso": "2026-12-31",
@@ -359,13 +317,6 @@
    "lieu": "Tennis Valeyre - 24 rue de Rochechouart",
    "pseudo": "doriannourj",
    "vu_le": "2026-11-07T09:32:02"
-  },
-  "partennis:cbfeb14ffbbc6309": {
-   "date_jeu": "1 Novembre 2026",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Elisabeth (7 Av. Paul Appell, 75014 Paris)",
-   "pseudo": "quentin24",
-   "vu_le": "2026-10-31T22:48:34"
   },
   "partennis:cc5bc7418624d26c": {
    "date_jeu": "3 Novembre 2026",
@@ -507,26 +458,12 @@
    "pseudo": "Pierre Durant",
    "vu_le": "2026-10-28T16:43:34"
   },
-  "tennis-contact:37055": {
-   "date_jeu": "01/11/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "David R",
-   "vu_le": "2026-10-30T23:45:54"
-  },
   "tennis-contact:37057": {
    "date_jeu": "02/11/2026 (Début de Soirée)",
    "date_jeu_iso": "2026-11-02",
    "lieu": "Paris 15eme arrondissement (paris)",
    "pseudo": "Antoine D.p.m",
    "vu_le": "2026-10-31T12:47:10"
-  },
-  "tennis-contact:37058": {
-   "date_jeu": "01/11/2026 (Matinée)",
-   "date_jeu_iso": "2026-11-01",
-   "lieu": "Paris 14eme arrondissement (paris)",
-   "pseudo": "Quentin De waele",
-   "vu_le": "2026-10-31T22:43:35"
   },
   "tennis-contact:37059": {
    "date_jeu": "07/11/2026 (Heure du déjeuner)",
