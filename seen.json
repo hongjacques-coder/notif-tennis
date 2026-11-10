@@ -171,6 +171,13 @@
    "pseudo": "krene",
    "vu_le": "2026-11-01T19:25:58"
   },
+  "partennis:76f97b9fb9671f35": {
+   "date_jeu": "12 Novembre 2026",
+   "date_jeu_iso": "2026-11-12",
+   "lieu": "Carpentier",
+   "pseudo": "domyny",
+   "vu_le": "2026-11-10T08:09:24"
+  },
   "partennis:77aba5f374c9f969": {
    "date_jeu": "7 Novembre 2026",
    "date_jeu_iso": "2026-11-07",
@@ -548,6 +555,13 @@
    "lieu": "Paris 13eme arrondissement (paris)",
    "pseudo": "Olivier Delaby",
    "vu_le": "2026-11-08T17:40:25"
+  },
+  "tennis-contact:37078": {
+   "date_jeu": "12/11/2026 (Matinée)",
+   "date_jeu_iso": "2026-11-12",
+   "lieu": "Paris 12eme arrondissement (paris)",
+   "pseudo": "Dominique P",
+   "vu_le": "2026-11-10T08:09:26"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
