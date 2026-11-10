@@ -3,6 +3,13 @@
   "partennis:incomplet": "2026-11-05"
  },
  "parties": {
+  "partennis:03f3ecc277d4a9c5": {
+   "date_jeu": "11 Novembre 2026",
+   "date_jeu_iso": "2026-11-11",
+   "lieu": "Tennis Elizabeth / 7 avenue Paul Appell, Paris 14e",
+   "pseudo": "alexandrelef",
+   "vu_le": "2026-11-10T09:49:47"
+  },
   "partennis:06a53e0e9ecec5e8": {
    "date_jeu": "9 Novembre 2026",
    "date_jeu_iso": "2026-11-09",
