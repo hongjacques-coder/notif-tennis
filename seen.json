@@ -66,6 +66,13 @@
    "pseudo": "jcplaz",
    "vu_le": "2026-11-07T08:11:34"
   },
+  "partennis:2041a9376c113605": {
+   "date_jeu": "13 Novembre 2026",
+   "date_jeu_iso": "2026-11-13",
+   "lieu": "75017",
+   "pseudo": "tennisman2000",
+   "vu_le": "2026-11-12T02:55:22"
+  },
   "partennis:25efee7e57599d00": {
    "date_jeu": "8 Novembre 2026",
    "date_jeu_iso": "2026-11-08",
@@ -618,6 +625,13 @@
    "lieu": "Paris 15eme arrondissement (paris)",
    "pseudo": "Charly T",
    "vu_le": "2026-11-11T18:04:09"
+  },
+  "tennis-contact:37082": {
+   "date_jeu": "13/11/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-11-13",
+   "lieu": "Paris 18eme arrondissement (paris)",
+   "pseudo": "Tennisman 2000",
+   "vu_le": "2026-11-12T02:55:24"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
