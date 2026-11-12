@@ -66,26 +66,12 @@
    "pseudo": "jcplaz",
    "vu_le": "2026-11-07T08:11:34"
   },
-  "partennis:24f311df18bf15ed": {
-   "date_jeu": "4 Novembre 2026",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Tennis Bertrand Dauvin",
-   "pseudo": "ramitennis",
-   "vu_le": "2026-11-03T19:41:16"
-  },
   "partennis:25efee7e57599d00": {
    "date_jeu": "8 Novembre 2026",
    "date_jeu_iso": "2026-11-08",
    "lieu": "Autour du Perreux sur Marne",
    "pseudo": "chrisparisien",
    "vu_le": "2026-11-06T10:23:55"
-  },
-  "partennis:2806a52f1c5bf23a": {
-   "date_jeu": "4 Novembre 2026",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Stade Elisabeth Paris 14",
-   "pseudo": "damien648",
-   "vu_le": "2026-11-03T13:55:43"
   },
   "partennis:2a4ad9e055a7b400": {
    "date_jeu": "31 Décembre 3000",
@@ -206,13 +192,6 @@
    "pseudo": "trydrogba",
    "vu_le": "2026-11-05T17:52:19"
   },
-  "partennis:72c671f032d3a158": {
-   "date_jeu": "4 Novembre 2026",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "tennis club bourget",
-   "pseudo": "jaybill",
-   "vu_le": "2026-11-04T09:53:13"
-  },
   "partennis:74715dc82f926163": {
    "date_jeu": "2 Décembre 2026",
    "date_jeu_iso": "2026-12-02",
@@ -254,13 +233,6 @@
    "lieu": "Parc du Tremblay",
    "pseudo": "bertrand94",
    "vu_le": "2026-11-06T13:34:27"
-  },
-  "partennis:817b9cafa8e4d1c5": {
-   "date_jeu": "4 Novembre 2026",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "stade de vanves",
-   "pseudo": "piwipage",
-   "vu_le": "2026-11-03T19:36:16"
   },
   "partennis:837b1f45a95d4ce2": {
    "date_jeu": "5 Novembre 2026",
@@ -423,13 +395,6 @@
    "pseudo": "fred75",
    "vu_le": "2026-11-09T15:37:36"
   },
-  "partennis:dbcec8a6628764bb": {
-   "date_jeu": "4 Novembre 2026",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Léo Lagrange mercredi 11h",
-   "pseudo": "benhdl",
-   "vu_le": "2026-10-31T21:48:31"
-  },
   "partennis:e550fd72fc8bce6f": {
    "date_jeu": "12 Novembre 2026",
    "date_jeu_iso": "2026-11-12",
@@ -541,27 +506,6 @@
    "lieu": "Paris 16eme arrondissement (paris)",
    "pseudo": "Vera C",
    "vu_le": "2026-11-01T07:04:23"
-  },
-  "tennis-contact:37061": {
-   "date_jeu": "04/11/2026 (Matinée)",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Paris 6eme arrondissement (paris)",
-   "pseudo": "Stephane L",
-   "vu_le": "2026-11-02T18:53:57"
-  },
-  "tennis-contact:37062": {
-   "date_jeu": "04/11/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Vanves (hauts de seine)",
-   "pseudo": "Pierre-yves R",
-   "vu_le": "2026-11-03T19:16:16"
-  },
-  "tennis-contact:37063": {
-   "date_jeu": "04/11/2026 (Matinée)",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Paris 18eme arrondissement (paris)",
-   "pseudo": "Rami Zouaoui",
-   "vu_le": "2026-11-03T19:46:17"
   },
   "tennis-contact:37064": {
    "date_jeu": "06/11/2026 (Apres-midi)",
@@ -681,13 +625,6 @@
    "lieu": "Toulouse",
    "pseudo": "CharlyBL",
    "vu_le": "2026-10-30T10:39:29"
-  },
-  "tennissables:0127dc39e59abc1e": {
-   "date_jeu": "04/11/2026 15:00",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "villejuif",
-   "pseudo": "stan",
-   "vu_le": "2026-10-31T16:52:45"
   },
   "tennissables:0cc4aa8751bc44d5": {
    "date_jeu": "11/02/2027 20:00",
@@ -850,13 +787,6 @@
    "pseudo": "nan",
    "vu_le": "2026-10-31T16:47:44"
   },
-  "tennissables:93b8b625eed53839": {
-   "date_jeu": "04/11/2026 10:00",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "toulouse",
-   "pseudo": "emmaveber",
-   "vu_le": "2026-10-31T16:02:41"
-  },
   "tennissables:94eea19beb8067bc": {
    "date_jeu": "26/11/2026 18:00",
    "date_jeu_iso": "2026-11-26",
@@ -904,13 +834,6 @@
    "date_jeu_iso": "2026-11-25",
    "lieu": "Paris",
    "pseudo": "Sugimoto",
-   "vu_le": "2026-10-30T10:39:29"
-  },
-  "tennissables:afc6b68f72bf01f2": {
-   "date_jeu": "04/11/2026 09:00",
-   "date_jeu_iso": "2026-11-04",
-   "lieu": "Suzanne Lenglen",
-   "pseudo": "Khalloud O",
    "vu_le": "2026-10-30T10:39:29"
   },
   "tennissables:b4390893c5d74f6e": {
