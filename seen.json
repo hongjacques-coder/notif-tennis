@@ -31,13 +31,6 @@
    "pseudo": "alexandrelef",
    "vu_le": "2026-11-11T20:19:43"
   },
-  "partennis:124823605861b6b8": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Complexe marcel bec meudon",
-   "pseudo": "idemooo",
-   "vu_le": "2026-11-04T20:09:48"
-  },
   "partennis:13cf0644ac1fe369": {
    "date_jeu": "9 Novembre 2026",
    "date_jeu_iso": "2026-11-09",
@@ -122,13 +115,6 @@
    "pseudo": "vautie",
    "vu_le": "2026-11-07T16:22:45"
   },
-  "partennis:4d780a10f40487e7": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Centre de tennis Élisabeth",
-   "pseudo": "nayrb",
-   "vu_le": "2026-11-04T14:43:57"
-  },
   "partennis:5291dafa642dfc9c": {
    "date_jeu": "11 Novembre 2026",
    "date_jeu_iso": "2026-11-11",
@@ -163,13 +149,6 @@
    "lieu": "Paris",
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
-  },
-  "partennis:610a879a9fde777e": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "172 rue Championnet 75018 Paris",
-   "pseudo": "clement18",
-   "vu_le": "2026-11-02T08:47:17"
   },
   "partennis:62e76f4b1bbaab5b": {
    "date_jeu": "6 Novembre 2026",
@@ -255,13 +234,6 @@
    "pseudo": "bertrand94",
    "vu_le": "2026-11-06T13:34:27"
   },
-  "partennis:837b1f45a95d4ce2": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Suzanne Lenglen",
-   "pseudo": "oliverv",
-   "vu_le": "2026-11-03T12:10:36"
-  },
   "partennis:88030469d563a752": {
    "date_jeu": "31 Mars 2027",
    "date_jeu_iso": "2027-03-31",
@@ -296,13 +268,6 @@
    "lieu": "parc du tremblay",
    "pseudo": "eric77",
    "vu_le": "2026-11-10T15:20:44"
-  },
-  "partennis:9aa1be879b40dd57": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Alain Mimoun, Paris 12e",
-   "pseudo": "romainc",
-   "vu_le": "2026-11-03T09:35:14"
   },
   "partennis:9bfe68f3781074f3": {
    "date_jeu": "10 Novembre 2026",
@@ -352,13 +317,6 @@
    "lieu": "Stade Rigoulot 18, avenue de la Porte Brancion 75015 Paris",
    "pseudo": "tonio26",
    "vu_le": "2026-11-12T11:46:20"
-  },
-  "partennis:b9b3e78bc8500c3f": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Leo Lagrange",
-   "pseudo": "jacoco",
-   "vu_le": "2026-10-30T10:32:52"
   },
   "partennis:ba02ec52ed9755ea": {
    "date_jeu": "6 Novembre 2026",
@@ -527,13 +485,6 @@
    "lieu": "Bertrand Dauvin (18e)",
    "pseudo": "barnaboum",
    "vu_le": "2026-11-01T16:20:28"
-  },
-  "partennis:fec97fc3eaed8789": {
-   "date_jeu": "5 Novembre 2026",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "Suzanne lenglen",
-   "pseudo": "idemooo",
-   "vu_le": "2026-11-05T09:51:08"
   },
   "tennis-contact:36197": {
    "date_jeu": "31/12/2026 (Matinée)",
@@ -933,13 +884,6 @@
    "lieu": "Sousse",
    "pseudo": "BEN7003230",
    "vu_le": "2026-10-31T16:47:46"
-  },
-  "tennissables:d265ea0c1ffe4b2c": {
-   "date_jeu": "05/11/2026 18:00",
-   "date_jeu_iso": "2026-11-05",
-   "lieu": "lyon",
-   "pseudo": "NahNah",
-   "vu_le": "2026-10-30T10:39:29"
   },
   "tennissables:d6455ea797f099cc": {
    "date_jeu": "17/09/2027 18:00",
