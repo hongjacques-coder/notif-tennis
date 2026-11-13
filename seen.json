@@ -115,6 +115,13 @@
    "pseudo": "vautie",
    "vu_le": "2026-11-07T16:22:45"
   },
+  "partennis:4baa5d9049f3649b": {
+   "date_jeu": "15 Novembre 2026",
+   "date_jeu_iso": "2026-11-15",
+   "lieu": "15h Elisabeth",
+   "pseudo": "davidr",
+   "vu_le": "2026-11-13T14:19:37"
+  },
   "partennis:5291dafa642dfc9c": {
    "date_jeu": "11 Novembre 2026",
    "date_jeu_iso": "2026-11-11",
@@ -667,6 +674,13 @@
    "lieu": "Paris 15eme arrondissement (paris)",
    "pseudo": "Antoine D.p.m",
    "vu_le": "2026-11-12T11:36:18"
+  },
+  "tennis-contact:37084": {
+   "date_jeu": "15/11/2026 (Apres-midi)",
+   "date_jeu_iso": "2026-11-15",
+   "lieu": "Paris 14eme arrondissement (paris)",
+   "pseudo": "David R",
+   "vu_le": "2026-11-13T14:19:38"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
