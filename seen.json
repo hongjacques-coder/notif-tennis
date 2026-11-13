@@ -1,6 +1,6 @@
 {
  "alertes": {
-  "partennis:incomplet": "2026-11-05"
+  "partennis:incomplet": "2026-11-13"
  },
  "parties": {
   "partennis:03f3ecc277d4a9c5": {
@@ -156,6 +156,13 @@
    "lieu": "Paris",
    "pseudo": "ol75",
    "vu_le": "2026-10-10T17:56:29"
+  },
+  "partennis:6291e5872b7fbeaa": {
+   "date_jeu": "14 Novembre 2026",
+   "date_jeu_iso": "2026-11-14",
+   "lieu": "TC Ivry",
+   "pseudo": "seon",
+   "vu_le": "2026-11-13T16:30:10"
   },
   "partennis:62e76f4b1bbaab5b": {
    "date_jeu": "6 Novembre 2026",
