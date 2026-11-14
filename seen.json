@@ -1,6 +1,6 @@
 {
  "alertes": {
-  "partennis:incomplet": "2026-11-13"
+  "partennis:incomplet": "2026-11-14"
  },
  "parties": {
   "partennis:03f3ecc277d4a9c5": {
@@ -80,13 +80,6 @@
    "pseudo": "philipjs",
    "vu_le": "2026-10-10T17:56:29"
   },
-  "partennis:2c10022857aee605": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "houlgate",
-   "pseudo": "icare75",
-   "vu_le": "2026-11-04T15:14:00"
-  },
   "partennis:2f90558a2d0465f2": {
    "date_jeu": "7 Novembre 2026",
    "date_jeu_iso": "2026-11-07",
@@ -143,6 +136,13 @@
    "pseudo": "nina",
    "vu_le": "2026-11-12T09:36:10"
   },
+  "partennis:5bef1da122e920ff": {
+   "date_jeu": "16 Novembre 2026",
+   "date_jeu_iso": "2026-11-16",
+   "lieu": "75018 Jesse Owens 172 rue Championnet",
+   "pseudo": "doriannourj",
+   "vu_le": "2026-11-14T09:46:16"
+  },
   "partennis:5c96dbc11b82f642": {
    "date_jeu": "11 Novembre 2026",
    "date_jeu_iso": "2026-11-11",
@@ -164,13 +164,6 @@
    "pseudo": "seon",
    "vu_le": "2026-11-13T16:30:10"
   },
-  "partennis:62e76f4b1bbaab5b": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "houlgate",
-   "pseudo": "icare75",
-   "vu_le": "2026-11-04T15:14:00"
-  },
   "partennis:654c7a47f98f1ccc": {
    "date_jeu": "10 Novembre 2026",
    "date_jeu_iso": "2026-11-10",
@@ -191,13 +184,6 @@
    "lieu": "Tennis de Courcelles (17ème)",
    "pseudo": "thomas92",
    "vu_le": "2026-11-10T13:14:55"
-  },
-  "partennis:6e0698d701e340ed": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Tourcoing",
-   "pseudo": "trydrogba",
-   "vu_le": "2026-11-05T17:52:19"
   },
   "partennis:6fa65ec7fcf72ccc": {
    "date_jeu": "13 Novembre 2026",
@@ -227,6 +213,13 @@
    "pseudo": "domyny",
    "vu_le": "2026-11-10T08:09:24"
   },
+  "partennis:772ef5abc78bd729": {
+   "date_jeu": "17 Novembre 2026",
+   "date_jeu_iso": "2026-11-17",
+   "lieu": "Georges Carpentier (13e)",
+   "pseudo": "jacoco",
+   "vu_le": "2026-11-14T09:46:14"
+  },
   "partennis:77aba5f374c9f969": {
    "date_jeu": "7 Novembre 2026",
    "date_jeu_iso": "2026-11-07",
@@ -254,6 +247,13 @@
    "lieu": "Sud de Paris",
    "pseudo": "yenbui",
    "vu_le": "2026-10-29T05:49:56"
+  },
+  "partennis:8c912a34b5426ce0": {
+   "date_jeu": "19 Novembre 2026",
+   "date_jeu_iso": "2026-11-19",
+   "lieu": "Carnot",
+   "pseudo": "domyny",
+   "vu_le": "2026-11-14T09:46:15"
   },
   "partennis:8e9a0c440c21fb3e": {
    "date_jeu": "9 Novembre 2026",
@@ -338,20 +338,6 @@
    "lieu": "Stade Rigoulot 18, avenue de la Porte Brancion 75015 Paris",
    "pseudo": "tonio26",
    "vu_le": "2026-11-12T11:46:20"
-  },
-  "partennis:ba02ec52ed9755ea": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Alain Mimoun",
-   "pseudo": "nicolasroussignol",
-   "vu_le": "2026-11-05T07:20:59"
-  },
-  "partennis:be81b739a70dd3ea": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "paris dejerine",
-   "pseudo": "elytennis",
-   "vu_le": "2026-11-06T10:54:18"
   },
   "partennis:bfe9f95e97f3d1c0": {
    "date_jeu": "14 Novembre 2026",
@@ -514,13 +500,6 @@
    "pseudo": "romainc",
    "vu_le": "2026-11-09T12:02:27"
   },
-  "partennis:fe3b9bd8d5b77f0d": {
-   "date_jeu": "6 Novembre 2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Bertrand Dauvin (18e)",
-   "pseudo": "barnaboum",
-   "vu_le": "2026-11-01T16:20:28"
-  },
   "tennis-contact:36197": {
    "date_jeu": "31/12/2026 (Matinée)",
    "date_jeu_iso": "2026-12-31",
@@ -556,24 +535,10 @@
    "pseudo": "Vera C",
    "vu_le": "2026-11-01T07:04:23"
   },
-  "tennis-contact:37064": {
-   "date_jeu": "06/11/2026 (Apres-midi)",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Houlgate (calvados)",
-   "pseudo": "Hicham A",
-   "vu_le": "2026-11-04T15:14:01"
-  },
   "tennis-contact:37065": {
    "date_jeu": "07/11/2026 (Apres-midi)",
    "date_jeu_iso": "2026-11-07",
    "lieu": "Cabourg (calvados)",
-   "pseudo": "Hicham A",
-   "vu_le": "2026-11-04T15:14:01"
-  },
-  "tennis-contact:37066": {
-   "date_jeu": "06/11/2026 (Début de Soirée)",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Houlgate (calvados)",
    "pseudo": "Hicham A",
    "vu_le": "2026-11-04T15:14:01"
   },
@@ -583,13 +548,6 @@
    "lieu": "Paris 15eme arrondissement (hauts de seine)",
    "pseudo": "Alain Lb",
    "vu_le": "2026-11-05T21:42:33"
-  },
-  "tennis-contact:37068": {
-   "date_jeu": "06/11/2026",
-   "date_jeu_iso": "2026-11-06",
-   "lieu": "Paris 11eme arrondissement (paris)",
-   "pseudo": "Guillaume Le",
-   "vu_le": "2026-11-06T09:28:53"
   },
   "tennis-contact:37069": {
    "date_jeu": "08/11/2026 (Matinée)",
@@ -688,6 +646,13 @@
    "lieu": "Paris 14eme arrondissement (paris)",
    "pseudo": "David R",
    "vu_le": "2026-11-13T14:19:38"
+  },
+  "tennis-contact:37085": {
+   "date_jeu": "19/11/2026 (Matinée)",
+   "date_jeu_iso": "2026-11-19",
+   "lieu": "Paris 12eme arrondissement (paris)",
+   "pseudo": "Dominique P",
+   "vu_le": "2026-11-14T09:46:18"
   },
   "tennissables:00bbd65958a16278": {
    "date_jeu": "09/11/2026 17:00",
